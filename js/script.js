@@ -3306,7 +3306,7 @@
           });
       } else {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./sw.js')
+          navigator.serviceWorker.register('./sw.js', { updateViaCache: 'none' })
             .then(registration => {
               console.log('Service Worker registrado con éxito:', registration.scope);
             })

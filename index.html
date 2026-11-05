@@ -692,11 +692,12 @@
             }
 
             .botones-contenedor .btn:first-child {
-                position: absolute;
+                position: fixed;
                 top: auto;
                 right: auto;
                 bottom: max(14px, env(safe-area-inset-bottom));
                 left: 50%;
+                z-index: 5;
                 padding: 10px 18px;
                 border: 2px solid rgba(255, 255, 255, 0.8);
                 border-radius: 28px;
