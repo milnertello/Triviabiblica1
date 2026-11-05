@@ -1021,6 +1021,17 @@
 
   <div id="giftToast" class="gift-toast" aria-live="polite"></div>
   <button id="soundToggle" onclick="toggleSound()" title="Activar o desactivar sonido">🔊</button>
+  <div id="appUpdateNotice" class="app-update-backdrop" hidden>
+    <section class="app-update-dialog" role="dialog" aria-modal="true" aria-labelledby="appUpdateTitle">
+      <button id="appUpdateClose" class="app-update-close" type="button" aria-label="Cerrar aviso">×</button>
+      <div class="app-update-icon" aria-hidden="true">🎉</div>
+      <h2 id="appUpdateTitle">¡Hay una nueva versión!</h2>
+      <p id="appUpdateMessage">Descarga la actualización para disfrutar las mejoras.</p>
+      <p id="appUpdateVersion" class="app-update-version"></p>
+      <a id="appUpdateDownload" class="app-update-download" href="#" rel="noopener">Descargar actualización</a>
+    </section>
+  </div>
+  <script src="js/update-check.js"></script>
   <script src="js/script.js"></script>
 </body>
 

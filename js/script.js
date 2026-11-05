@@ -3328,30 +3328,30 @@
       playPopSound();
     });
 
-    // TEST: Función para verificar que todo esté funcionando (disponible en consola)
-    window.testLevel1 = function() {
-      console.log('=== TEST NIVEL 1 ===');
-      console.log('lvl1 existe:', !!document.getElementById('lvl1'));
-      console.log('lvlPin1 existe:', !!document.getElementById('lvlPin1'));
-      console.log('startLevel existe:', typeof startLevel === 'function');
-      console.log('unlocked:', unlocked);
-      console.log('Preguntas cargadas:', getQuestionBank().length);
-    };
-
     // Initialize cached elements
     initGiftElements();
 
     // Register Service Worker for PWA functionality
     if ('serviceWorker' in navigator) {
-      window.addEventListener('load', () => {
-        navigator.serviceWorker.register('/sw.js')
-          .then(registration => {
-            console.log('Service Worker registrado con éxito:', registration.scope);
-          })
+      if (window.Capacitor?.isNativePlatform?.()) {
+        navigator.serviceWorker.getRegistrations()
+          .then(registrations => Promise.all(
+            registrations.map(registration => registration.unregister())
+          ))
           .catch(error => {
-            console.log('Error al registrar Service Worker:', error);
+            console.error('Error al desactivar el Service Worker nativo:', error);
           });
-      });
+      } else {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('./sw.js')
+            .then(registration => {
+              console.log('Service Worker registrado con éxito:', registration.scope);
+            })
+            .catch(error => {
+              console.log('Error al registrar Service Worker:', error);
+            });
+        });
+      }
     }
 
     // Request notification permission for gift reminders

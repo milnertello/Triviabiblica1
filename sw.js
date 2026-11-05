@@ -1,15 +1,16 @@
 // © 2026 Milner Tello Guzman. Todos los derechos reservados.
 
 // Service Worker para cacheo offline y PWA
-const CACHE_NAME = 'trivia-biblica-v1.0';
+const CACHE_NAME = 'trivia-biblica-v1.1';
 const urlsToCache = [
-  '/',
-  '/index.html',
-  '/css/style.css',
-  '/js/script.js',
-  '/preguntas_tjw.json',
-  // Agregar más recursos estáticos si es necesario
-];
+  'index.html',
+  'juego.html',
+  'manifest.json',
+  'css/style.css',
+  'js/script.js',
+  'icons/icon-192x192.png',
+  'icons/icon-512x512.png',
+].map(path => new URL(path, self.registration.scope).href);
 
 // Instalación del service worker
 self.addEventListener('install', event => {
@@ -38,28 +39,28 @@ self.addEventListener('activate', event => {
 
 // Estrategia de cache: Cache First para recursos estáticos, Network First para preguntas
 self.addEventListener('fetch', event => {
-  if (event.request.url.includes('/preguntas/
-    // Network First para preguntas (siempre intentar actualizar)
-    event.respondWith(
-      fetch(event.request)
-        .then(response => {
-          const responseClone = response.clone();
-          caches.open(CACHE_NAME)
-            .then(cache => cache.put(event.request, responseClone));
-          return response;
-        })
-        .catch(() => caches.match(event.request))
-    );
+  if (new URL(event.request.url).pathname.includes('/preguntas/')) {
+    event.respondWith((async () => {
+      try {
+        const response = await fetch(event.request);
+        if (response.ok) {
+          const cache = await caches.open(CACHE_NAME);
+          await cache.put(event.request, response.clone());
+        }
+        return response;
+      } catch (error) {
+        const cachedResponse = await caches.match(event.request);
+        if (cachedResponse) {
+          return cachedResponse;
+        }
+        throw error;
+      }
+    })());
   } else {
     // Cache First para otros recursos
-    event.respondWith(
-      caches.match(event.request)
-        .then(response => {
-          if (response) {
-            return response;
-          }
-          return fetch(event.request);
-        })
-    );
+    event.respondWith((async () => {
+      const cachedResponse = await caches.match(event.request);
+      return cachedResponse || fetch(event.request);
+    })());
   }
 });

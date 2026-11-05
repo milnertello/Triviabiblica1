@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Trivia Bíblica</string>
+    <string name="title_activity_main">Trivia Bíblica</string>
+    <string name="package_name">com.milnertello.bibliaquiz</string>
+    <string name="custom_url_scheme">com.milnertello.bibliaquiz</string>
+</resources>
