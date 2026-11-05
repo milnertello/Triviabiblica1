@@ -270,6 +270,39 @@
             font-weight: 600;
         }
 
+        .descarga-apk {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 12px;
+            margin: 10px 0 25px;
+            padding: 25px;
+            border: 2px solid var(--color-dorado);
+            border-radius: 15px;
+            background: var(--color-gris-claro);
+            text-align: center;
+        }
+
+        .descarga-apk h2 {
+            font-family: 'Fredoka One', sans-serif;
+            font-size: 1.5rem;
+            color: var(--color-azul-profundo);
+        }
+
+        .descarga-apk p {
+            color: var(--color-azul-profundo);
+            line-height: 1.6;
+        }
+
+        .btn-descarga {
+            background: var(--color-azul-profundo);
+            color: var(--color-blanco);
+        }
+
+        .btn-descarga:hover {
+            background: var(--color-azul-claro);
+        }
+
         /* Botones */
         .botones-contenedor {
             display: flex;
@@ -542,6 +575,15 @@
                 </div>
             </div>
 
+            <!-- Descarga de la aplicación para Android -->
+            <section class="descarga-apk" aria-labelledby="titulo-descarga-apk">
+                <h2 id="titulo-descarga-apk">📱 Descargar el juego en APK</h2>
+                <p id="aviso-descarga-apk">El archivo APK aún no está publicado; cuando esté disponible, podrás descargarlo desde GitHub Releases.</p>
+                <a class="btn btn-descarga" id="enlace-descarga-apk" href="https://github.com/milnertello/bibliaquiz/releases" target="_blank" rel="noopener noreferrer">
+                    📥 Ver descargas en GitHub
+                </a>
+            </section>
+
             <!-- Botones secundarios -->
             <div class="botones-contenedor">
                 <button class="btn btn-secundario" onclick="abrirModalIdioma()">
@@ -731,6 +773,9 @@
                     paso1: "Haz clic en \"Jugar Ahora\" para comenzar",
                     paso2: "Responde las preguntas bíblicas correctamente",
                     paso3: "Avanza de niveles y sube tu puntuación",
+                    descargaTitulo: "📱 Descargar el juego en APK",
+                    descargaAviso: "El archivo APK aún no está publicado; cuando esté disponible, podrás descargarlo desde GitHub Releases.",
+                    descargaBoton: "📥 Ver descargas en GitHub",
                     idioma: "🌐 Idioma",
                     acerca: "ℹ️ Acerca de",
                     contacto: "📧 Contacto",
@@ -775,6 +820,9 @@
                     paso1: "\"Pukllay kunan\" ñitiypi ñitiy qallarinaykipaq",
                     paso2: "Biblia tapukuykunata allinta kutichiy",
                     paso3: "Nivelesman ñawpay hinaspa puntuacionniykita hoqariy",
+                    descargaTitulo: "📱 Pukllayta APK nisqapi uraykachiy",
+                    descargaAviso: "APK yupayqa manaraqmi kachkan. Churasqa kaptin, GitHub Releasespi tarinki.",
+                    descargaBoton: "📥 GitHubpi qhaway",
                     idioma: "🌐 Rimay",
                     acerca: "ℹ️ Kaymanta",
                     contacto: "📧 Willay",
@@ -819,6 +867,9 @@
                     paso1: "Click \"Play Now\" to begin",
                     paso2: "Answer the biblical questions correctly",
                     paso3: "Advance through levels and increase your score",
+                    descargaTitulo: "📱 Download the game as an APK",
+                    descargaAviso: "The APK file has not been published yet. Once available, you can download it from GitHub Releases.",
+                    descargaBoton: "📥 View downloads on GitHub",
                     idioma: "🌐 Language",
                     acerca: "ℹ️ About",
                     contacto: "📧 Contact",
@@ -881,6 +932,10 @@
                 pasosTextos[1].innerText = t.paso2;
                 pasosTextos[2].innerText = t.paso3;
             }
+
+            document.getElementById('titulo-descarga-apk').innerText = t.descargaTitulo;
+            document.getElementById('aviso-descarga-apk').innerText = t.descargaAviso;
+            document.getElementById('enlace-descarga-apk').innerText = t.descargaBoton;
 
             // Botones secundarios
             const secondaryBtns = document.querySelectorAll('.btn-secundario');
