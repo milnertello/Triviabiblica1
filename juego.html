@@ -20,69 +20,6 @@
   <!-- Floating background decorations removed -->
   <div id="confetti"></div>
 
-  <!-- HOME -->
-  <section id="home">
-    <div class="beach-menu-container">
-      <!-- Beach Background -->
-      <div class="beach-sky-bg"></div>
-      <div class="beach-ocean-bg">
-        <div class="ocean-wave wave1"></div>
-        <div class="ocean-wave wave2"></div>
-      </div>
-      <div class="beach-sand-bg"></div>
-      
-      <!-- Decorative Elements -->
-      <div class="beach-deco palm-tree">🌴</div>
-      <div class="beach-deco surfboard">🏄</div>
-      <div class="beach-deco crab">🦀</div>
-      <div class="beach-deco shell">🐚</div>
-      <div class="beach-deco starfish">⭐</div>
-      <div class="sun-radiant">☀️</div>
-      <div class="sun-beams">☀️</div>
-      <div class="beach-clouds">☁️</div>
-
-      <!-- New Beach Animals -->
-      <div class="beach-animal parrot-beach">🦜</div>
-      <div class="beach-animal turtle-beach">🐢</div>
-      <div class="beach-animal flamingo-beach">🦩</div>
-      <div class="beach-animal sailboat-beach">⛵</div>
-      <div class="beach-animal dolphin-beach">🐬</div>
-      <div class="beach-animal dolphin-beach2">🐬</div>
-      
-      <!-- Logo with Gift Button -->
-      <div class="beach-logo-with-gift">
-        <div class="beach-gift-box-top">
-          <button class="beach-gift" id="homeGiftQuickBtn" onclick="openGiftFromHome()" title="Regalo">🎁</button>
-          <span class="gift-timer" id="homeGiftBadge">--:--</span>
-        </div>
-        <div class="beach-logo">
-          <h1 class="beach-title">Trivia Bíblica: Aprende Jugando</h1>
-        </div>
-      </div>
-      
-      <!-- Big Play Button -->
-      <div class="beach-buttons">
-        <button id="homePlayBtn" class="wooden-btn wooden-classic" onclick="startGame()">
-          <span class="btn-shine"></span>
-          🎮 ¡Jugar!
-        </button>
-      </div>
-      
-      <!-- Daily Text -->
-      <div class="beach-daily-box" id="dailyTextContainer">
-        <p id="homeDailyLabel" class="daily-label-beach">📜 Texto de Hoy</p>
-        <p id="dailyTextBody" class="daily-body-beach">"No tengas miedo, porque estoy contigo..."</p>
-        <p id="dailyTextRef" class="daily-ref-beach">- Isaías 41:10</p>
-      </div>
-
-      <div style="display: flex; justify-content: center; margin-top: 10px; position: relative; z-index: 201;">
-        <button id="homeWelcomeBtn" class="wooden-btn-exit" onclick="window.location.href='index.html'">
-          🏠 Salir
-        </button>
-      </div>
-    </div>
-  </section>
-
   <!-- EXTRAS -->
   <section id="extras">
     <!-- Jungle Background Elements - Full Screen -->
@@ -1031,6 +968,7 @@
       <a id="appUpdateDownload" class="app-update-download" href="#" rel="noopener">Descargar actualización</a>
     </section>
   </div>
+  <script src="js/daily-texts.js"></script>
   <script src="js/update-check.js"></script>
   <script src="js/script.js"></script>
 </body>

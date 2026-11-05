@@ -274,39 +274,6 @@
             font-weight: 600;
         }
 
-        .descarga-apk {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 12px;
-            margin: 10px 0 25px;
-            padding: 25px;
-            border: 2px solid var(--color-dorado);
-            border-radius: 15px;
-            background: var(--color-gris-claro);
-            text-align: center;
-        }
-
-        .descarga-apk h2 {
-            font-family: 'Fredoka One', sans-serif;
-            font-size: 1.5rem;
-            color: var(--color-azul-profundo);
-        }
-
-        .descarga-apk p {
-            color: var(--color-azul-profundo);
-            line-height: 1.6;
-        }
-
-        .btn-descarga {
-            background: var(--color-azul-profundo);
-            color: var(--color-blanco);
-        }
-
-        .btn-descarga:hover {
-            background: var(--color-azul-claro);
-        }
-
         /* Botones */
         .botones-contenedor {
             display: flex;
@@ -538,14 +505,15 @@
             }
 
             .contenedor {
-                display: flex;
+                position: relative;
+                isolation: isolate;
                 justify-content: flex-start;
-                gap: 16px;
+                gap: clamp(18px, 4vh, 36px);
                 max-width: none;
                 min-height: 100vh;
                 min-height: 100svh;
-                padding: 82px clamp(18px, 5vw, 56px) 34px;
-                overflow: hidden;
+                padding: 82px clamp(18px, 5vw, 56px) 88px;
+                overflow-x: clip;
                 background:
                     radial-gradient(ellipse at 50% 3%, rgba(255, 255, 255, 0.85), transparent 30%),
                     repeating-conic-gradient(from 342deg at 50% 8%, rgba(255, 255, 255, 0.15) 0deg 6deg, transparent 6deg 13deg),
@@ -588,7 +556,6 @@
             .contenedor > * {
                 position: relative;
                 z-index: 1;
-                flex: 0 0 auto;
             }
 
             .header {
@@ -617,12 +584,21 @@
             }
 
             .contenido-principal {
-                display: contents;
-            }
-
-            .contenido-principal > * {
-                position: relative;
-                z-index: 1;
+                display: flex;
+                order: 2;
+                flex: 1;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: clamp(18px, 4vh, 36px);
+                width: 100%;
+                min-height: 0;
+                margin: 0;
+                padding: 0;
+                border-radius: 0;
+                background: transparent;
+                box-shadow: none;
+                animation: none;
             }
 
             .descripcion,
@@ -631,7 +607,6 @@
             }
 
             .btn-principal {
-                order: 2;
                 align-self: center;
                 width: min(86vw, 560px);
                 min-width: 0;
@@ -650,11 +625,10 @@
             }
 
             .versiculo-destacado {
-                order: 3;
                 position: relative;
                 align-self: center;
                 width: min(100%, 760px);
-                margin: 16px 0 12px;
+                margin: 12px 0;
                 padding: 38px clamp(20px, 5vw, 46px) 24px;
                 border: 4px solid #ffbd24;
                 border-radius: 36px;
@@ -695,27 +669,19 @@
                 opacity: 1;
             }
 
-            .descarga-apk {
-                order: 4;
-                align-self: center;
-                width: min(100%, 760px);
-                margin: 10px 0;
-                padding: 14px;
-                border: 2px solid rgba(255, 225, 95, 0.9);
-                background: rgba(255, 255, 255, 0.9);
-                box-shadow: 0 6px 16px rgba(0, 54, 95, 0.16);
-            }
-
-            .descarga-apk h2 {
-                font-size: 1.2rem;
-            }
-
             .botones-contenedor {
-                display: contents;
+                display: flex;
+                order: 3;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                flex-wrap: wrap;
+                gap: 10px;
+                width: 100%;
+                margin: 0;
             }
 
             .botones-contenedor .btn {
-                order: 6;
                 align-self: center;
                 width: auto;
                 min-width: 0;
@@ -727,22 +693,32 @@
 
             .botones-contenedor .btn:first-child {
                 position: absolute;
-                top: max(14px, env(safe-area-inset-top));
-                right: 18px;
-                order: 0;
+                top: auto;
+                right: auto;
+                bottom: max(14px, env(safe-area-inset-bottom));
+                left: 50%;
                 padding: 10px 18px;
                 border: 2px solid rgba(255, 255, 255, 0.8);
                 border-radius: 28px;
                 background: linear-gradient(135deg, #163d86, #09255e);
                 color: #fff;
                 box-shadow: 0 4px 0 rgba(0, 22, 68, 0.35);
+                transform: translateX(-50%);
+            }
+
+            footer {
+                display: none;
             }
         }
 
         @media (max-width: 600px) {
             .contenedor {
-                gap: 13px;
-                padding: 76px 17px 30px;
+                gap: 14px;
+                padding: 72px 17px 82px;
+            }
+
+            .contenido-principal {
+                gap: clamp(14px, 2.5vh, 22px);
             }
 
             .titulo-principal {
@@ -751,13 +727,14 @@
 
             .btn-principal {
                 width: min(88vw, 430px);
+                margin: 4px 0;
                 padding: 17px 16px;
                 border-width: 4px;
                 border-radius: 32px;
             }
 
             .versiculo-destacado {
-                margin-top: 17px;
+                margin: 6px 0;
                 padding: 34px 20px 20px;
                 border-radius: 29px;
             }
@@ -827,25 +804,10 @@
                 </div>
             </div>
 
-            <!-- Descarga de la aplicación para Android -->
-            <section class="descarga-apk" aria-labelledby="titulo-descarga-apk">
-                <h2 id="titulo-descarga-apk">📱 Descargar el juego en APK</h2>
-                <p id="aviso-descarga-apk">Descarga la aplicación para Android.</p>
-                <a class="btn btn-descarga" id="enlace-descarga-apk" href="/descargas/bibliaquiz.apk" download="bibliaquiz.apk">
-                    📥 Descargar APK
-                </a>
-            </section>
-
             <!-- Botones secundarios -->
             <div class="botones-contenedor">
                 <button class="btn btn-secundario" onclick="abrirModalIdioma()">
                     🌐 Idioma
-                </button>
-                <button class="btn btn-secundario" onclick="abrirModal()">
-                    ℹ️ Acerca de
-                </button>
-                <button class="btn btn-secundario" onclick="abrirModalContacto()">
-                    📧 Contacto
                 </button>
             </div>
         </div>
@@ -922,6 +884,7 @@
         <p>&copy; 2026 Sabiduría Bíblica Quiz | Todos los derechos reservados | Creado con <span style="color: var(--color-dorado);">❤️</span> para amantes de la Palabra</p>
     </footer>
 
+    <script src="js/daily-texts.js"></script>
     <script>
         // Crear partículas flotantes animadas
         function crearPartículas() {
@@ -1007,7 +970,34 @@
         document.addEventListener('DOMContentLoaded', () => {
             crearPartículas();
             actualizarTextosSegunIdioma();
+            actualizarTextoDiarioMovil();
         });
+
+        function actualizarTextoDiarioMovil() {
+            if (!window.matchMedia('(max-width: 1024px)').matches) return;
+
+            const verse = window.getDailyTextForDate();
+            const currentLang = localStorage.getItem('lang') || 'es';
+            const labels = {
+                es: '📜 Texto de hoy',
+                qu: '📜 Kunan p’unchaypa texto',
+                en: '📜 Text of the day'
+            };
+            document.querySelector('.etiqueta-versiculo').innerText = labels[currentLang] || labels.es;
+            document.querySelector('.versiculo-destacado p').innerText = `"${verse.text}"`;
+            document.querySelector('.versiculo-referencia').innerText = `- ${verse.ref}`;
+        }
+
+        function actualizarPortadaSegunAncho() {
+            if (window.matchMedia('(max-width: 1024px)').matches) {
+                actualizarTextoDiarioMovil();
+            } else {
+                actualizarTextosSegunIdioma();
+            }
+        }
+
+        window.addEventListener('resize', actualizarPortadaSegunAncho);
+        window.matchMedia('(max-width: 1024px)').addEventListener('change', actualizarPortadaSegunAncho);
 
         function actualizarTextosSegunIdioma() {
             const currentLang = localStorage.getItem('lang') || 'es';
@@ -1026,9 +1016,6 @@
                     paso1: "Haz clic en \"Jugar Ahora\" para comenzar",
                     paso2: "Responde las preguntas bíblicas correctamente",
                     paso3: "Avanza de niveles y sube tu puntuación",
-                    descargaTitulo: "📱 Descargar el juego en APK",
-                    descargaAviso: "Descarga la aplicación para Android.",
-                    descargaBoton: "📥 Descargar APK",
                     idioma: "🌐 Idioma",
                     acerca: "ℹ️ Acerca de",
                     contacto: "📧 Contacto",
@@ -1074,9 +1061,6 @@
                     paso1: "\"Pukllay kunan\" ñitiypi ñitiy qallarinaykipaq",
                     paso2: "Biblia tapukuykunata allinta kutichiy",
                     paso3: "Nivelesman ñawpay hinaspa puntuacionniykita hoqariy",
-                    descargaTitulo: "📱 Pukllayta APK nisqapi uraykachiy",
-                    descargaAviso: "Android kaqpaq aplicaciónta uraykachiy.",
-                    descargaBoton: "📥 APKta uraykachiy",
                     idioma: "🌐 Rimay",
                     acerca: "ℹ️ Kaymanta",
                     contacto: "📧 Willay",
@@ -1122,9 +1106,6 @@
                     paso1: "Click \"Play Now\" to begin",
                     paso2: "Answer the biblical questions correctly",
                     paso3: "Advance through levels and increase your score",
-                    descargaTitulo: "📱 Download the game as an APK",
-                    descargaAviso: "Download the app for Android.",
-                    descargaBoton: "📥 Download APK",
                     idioma: "🌐 Language",
                     acerca: "ℹ️ About",
                     contacto: "📧 Contact",
@@ -1188,10 +1169,6 @@
                 pasosTextos[1].innerText = t.paso2;
                 pasosTextos[2].innerText = t.paso3;
             }
-
-            document.getElementById('titulo-descarga-apk').innerText = t.descargaTitulo;
-            document.getElementById('aviso-descarga-apk').innerText = t.descargaAviso;
-            document.getElementById('enlace-descarga-apk').innerText = t.descargaBoton;
 
             // Botones secundarios
             const secondaryBtns = document.querySelectorAll('.btn-secundario');

@@ -1,0 +1,44 @@
+window.dailyTexts = [
+  { text: "No tengas miedo, porque estoy contigo. No te angusties, porque yo soy tu Dios. Yo te daré fuerzas. Sí, yo te ayudaré; con mi mano derecha de justicia de veras te sostendré.", ref: "Isaías 41:10" },
+  { text: "Confía en Jehová con todo tu corazón y no te apoyes en tu propio entendimiento. Tenlo presente en todos tus caminos, y él hará derechas tus sendas.", ref: "Proverbios 3:5, 6" },
+  { text: "Tengo fuerzas para todo gracias a aquel que me da poder.", ref: "Filipenses 4:13" },
+  { text: "Arroja tu carga sobre Jehová, y él te sostendrá. Jamás permitirá que el justo caiga.", ref: "Salmo 55:22" },
+  { text: "¿Acaso no te he ordenado yo que seas fuerte y valiente? No te aterrorices ni tengas miedo, porque Jehová tu Dios estará contigo vayas donde vayas.", ref: "Josué 1:9" },
+  { text: "Mientras echan todas sus inquietudes sobre él, porque él se preocupa por ustedes.", ref: "1 Pedro 5:7" },
+  { text: "Porque sé muy bien lo que tengo en mente para ustedes —afirma Jehová—. Quiero que tengan paz, no calamidad. Quiero darles un futuro y una esperanza.", ref: "Jeremías 29:11" },
+  { text: "Sabemos que Dios hace que todas sus obras cooperen para el bien de los que lo aman...", ref: "Romanos 8:28" },
+  { text: "Dios es nuestro refugio y nuestra fuerza, una ayuda siempre disponible en tiempos de angustia.", ref: "Salmo 46:1" },
+  { text: "Él le da poder al cansado y llena de vigor al que está sin fuerzas.", ref: "Isaías 40:29" },
+  { text: "Pero los que esperan en Jehová recobrarán las fuerzas. Levantarán el vuelo como si tuvieran alas de águila. Correrán y no se agotarán...", ref: "Isaías 40:31" },
+  { text: "Jehová será un refugio seguro para el oprimido, un refugio seguro en tiempos de angustia.", ref: "Salmo 9:9" },
+  { text: "Jehová está cerca de los que tienen el corazón destrozado; salva a los que están hundidos en el desánimo.", ref: "Salmo 34:18" },
+  { text: "Jehová es mi luz y mi salvación. ¿De quién voy a tener miedo? Jehová es la fortaleza de mi vida. ¿De quién voy a sentir terror?", ref: "Salmo 27:1" },
+  { text: "Que el Dios que da esperanza los llene de toda alegría y paz por la confianza que tienen en él, para que su esperanza abunde...", ref: "Romanos 15:13" },
+  { text: "Por eso, podemos decir llenos de valor: “Jehová es mi ayudante; no tendré miedo. ¿Qué puede hacerme el hombre?”", ref: "Hebreos 13:6" },
+  { text: "Alzaré mis ojos a las montañas. ¿De dónde vendrá mi ayuda? Mi ayuda viene de Jehová, el Creador del cielo y de la tierra.", ref: "Salmo 121:1, 2" },
+  { text: "Vengan a mí, todos los que están cansados y llevan cargas pesadas, y yo los aliviaré.", ref: "Mateo 11:28" },
+  { text: "Le diré a Jehová: “Tú eres mi refugio y mi fortaleza, mi Dios, en quien confío”.", ref: "Salmo 91:2" },
+  { text: "Alabado sea el Dios y Padre... que nos consuela en todas nuestras pruebas...", ref: "2 Corintios 1:3, 4" },
+  { text: "Aunque ande por el valle de profunda sombra, no temeré ningún mal, porque tú estás conmigo; tu vara y tu bastón me dan seguridad.", ref: "Salmo 23:4" },
+  { text: "Les dejo la paz; les doy mi paz... No dejen que sus corazones se angustien ni se encojan de miedo.", ref: "Juan 14:27" },
+  { text: "Jehová tu Dios está en medio de ti. Como un poderoso, él te salvará. Se alegrará mucho por ti.", ref: "Sofonías 3:17" },
+  { text: "Porque estoy convencido de que ni muerte ni vida... ni altura ni profundidad ni ninguna otra creación podrá separarnos del amor de Dios.", ref: "Romanos 8:38, 39" },
+  { text: "Tema a Jehová y sírvale fielmente con todo su corazón; fíjese en todo lo que él ha hecho por usted.", ref: "1 Samuel 12:24" },
+  { text: "Pon tu camino en las manos de Jehová; confía en él, y él actuará en tu favor.", ref: "Salmo 37:5" },
+  { text: "Aunque caiga, no se quedará en el suelo, porque Jehová lo sostiene de la mano.", ref: "Salmo 37:24" },
+  { text: "El nombre de Jehová es una torre fuerte. El justo corre hacia ella y recibe protección.", ref: "Proverbios 18:10" },
+  { text: "Tú protegerás a los que se apoyan por completo en ti; les darás una paz continua, porque en ti confían.", ref: "Isaías 26:3" },
+  { text: "Cuando pases por las aguas, yo estaré contigo; y, cuando cruces los ríos, no te ahogarán... porque yo soy Jehová tu Dios.", ref: "Isaías 43:2" },
+  { text: "Gracias al amor leal de Jehová no hemos sido eliminados, porque sus muestras de compasión nunca se agotan. Son nuevas cada mañana.", ref: "Lamentaciones 3:22, 23" },
+  { text: "Pero yo me mantendré pendiente de Jehová. Rebosaré de esperanza en el Dios de mi salvación. Mi Dios me escuchará.", ref: "Miqueas 7:7" },
+  { text: "Porque Dios no nos dio un espíritu de cobardía, sino de poder, de amor y de buen juicio.", ref: "2 Timoteo 1:7" },
+  { text: "Ustedes necesitan aguante para que, después de haber hecho la voluntad de Dios, reciban lo que él ha prometido.", ref: "Hebreos 10:36" },
+  { text: "Y les secará toda lágrima de sus ojos, y la muerte ya no existirá, ni habrá más tristeza ni llanto ni dolor. Las cosas anteriores han desaparecido.", ref: "Apocalipsis 21:4" }
+];
+
+window.getDailyTextForDate = function (date = new Date()) {
+  const yearStart = Date.UTC(date.getFullYear(), 0, 1);
+  const currentDay = Date.UTC(date.getFullYear(), date.getMonth(), date.getDate());
+  const dayOfYear = Math.floor((currentDay - yearStart) / 86400000) + 1;
+  return window.dailyTexts[dayOfYear % window.dailyTexts.length];
+};
