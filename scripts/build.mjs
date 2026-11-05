@@ -15,6 +15,7 @@ const webFiles = [
   'js',
   'musica',
   'preguntas',
+  'descargas',
 ];
 
 for (const path of webFiles) {

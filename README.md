@@ -41,16 +41,16 @@ npm.cmd run android:sync
 npm.cmd run android:open
 ```
 
-La carpeta `www` se genera automáticamente a partir de los HTML, estilos, scripts, preguntas, iconos y audios del proyecto. Para Android, `www/index.html` se prepara desde `juego.html`, de modo que la app abra directamente en la pantalla con el texto del día y el botón **¡Jugar!**. La portada web original `index.html` se conserva en el proyecto. No edites directamente `www`: vuelve a ejecutar `npm.cmd run android:sync` después de hacer cambios.
+La carpeta `www` se genera automáticamente a partir de los HTML, estilos, scripts, preguntas, iconos, audios y archivos descargables de `descargas/`. Para Android, `www/index.html` se prepara desde `juego.html`, de modo que la app abra directamente en la pantalla con el texto del día y el botón **¡Jugar!**. La portada web original `index.html` se conserva en el proyecto. No edites directamente `www`: vuelve a ejecutar `npm.cmd run android:sync` después de hacer cambios.
 
 ## Aviso de nuevas versiones de Android
 
-La app Android consulta `https://bibliaquiz.pe/version.json` al abrirse y si hay conexión. Si el campo `version` es superior a la versión instalada, muestra un aviso con el enlace del campo `apkUrl`. El archivo `version.json` de este proyecto sirve como plantilla y propone publicar el APK en `https://bibliaquiz.pe/descargas/bibliaquiz.apk`.
+La app Android consulta `https://bibliaquiz.pe/version.json` al abrirse y si hay conexión. Si el campo `version` es superior a la versión instalada, muestra un aviso con el enlace del campo `apkUrl`. El archivo `version.json` de este proyecto sirve como plantilla y propone publicar el APK en `https://bibliaquiz.pe/descargas/bibliaquiz.apk`. Guarda el APK y otros archivos descargables en la carpeta local `descargas/`; al publicar el sitio, conserva allí la misma ruta y el mismo nombre de archivo.
 
 En cada lanzamiento:
 
 1. Aumenta `versionName` y `versionCode` en `android/app/build.gradle`, y el valor `APP_VERSION` en `js/update-check.js`.
-2. Genera y firma el APK de lanzamiento; súbelo a `https://bibliaquiz.pe/descargas/bibliaquiz.apk`.
+2. Genera y firma el APK de lanzamiento; guárdalo como `descargas/bibliaquiz.apk` y publícalo en `https://bibliaquiz.pe/descargas/bibliaquiz.apk`.
 3. Actualiza `version` en `version.json` para que coincida con el APK publicado.
 4. Publica `version.json` en la raíz de `https://bibliaquiz.pe/`. El servidor debe responder con `Content-Type: application/json` y permitir CORS para que la app (`https://localhost`) pueda leerlo (`Access-Control-Allow-Origin: *`).
 

@@ -1,0 +1,38 @@
+{
+  "hosting": {
+    "public": ".",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**",
+      "android/**",
+      "scripts/**",
+      "www/**",
+      "trivia_Biblia/**",
+      "descargas/bibliaquiz.apk",
+      "package.json",
+      "package-lock.json",
+      "capacitor.config.json",
+      "README.md"
+    ],
+    "headers": [
+      {
+        "source": "/descargas/*.apk",
+        "headers": [
+          {
+            "key": "Content-Type",
+            "value": "application/vnd.android.package-archive"
+          },
+          {
+            "key": "Content-Disposition",
+            "value": "attachment; filename=\"bibliaquiz.apk\""
+          },
+          {
+            "key": "Cache-Control",
+            "value": "no-cache"
+          }
+        ]
+      }
+    ]
+  }
+}

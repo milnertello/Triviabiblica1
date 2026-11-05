@@ -3131,7 +3131,6 @@
     show("home");
     updateLocks();
     loadDailyText();
-    checkDailyReward();
     preloadCoreAssets().then(() => {
       initOnboarding();
       showTutorial();
