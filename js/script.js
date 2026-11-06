@@ -2236,13 +2236,13 @@
       
       const mapPathContent = document.querySelector('.map-path-content');
       if (mapPathContent) {
-        mapPathContent.style.height = '6000px'; // Altura ajustada para 50 niveles
+        mapPathContent.style.height = '7500px';
       }
       
       // Si ya están todos, no hacer nada
       if (container.children.length > 50) return;
       
-      const leftPositions = [50, 26.7, 20, 26.7, 50, 73.3, 80, 73.3, 50, 26.7, 20, 26.7, 50, 73.3, 80];
+      const leftPositions = [27, 62, 40, 72, 54, 86, 75, 50, 28, 15, 50, 78, 84, 62, 38];
       const baseTop = 22; // Empezar después del nivel 15 (que está en 22%)
       const spacing = 1.5; // Espaciado ajustado para 50 niveles en 6000px
       
