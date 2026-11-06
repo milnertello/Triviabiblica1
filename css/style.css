@@ -5548,7 +5548,8 @@
 
 /* Botones de nivel con medallón y base de piedra */
 #map .map-path-content {
-  min-height: 7500px;
+  height: 10000px;
+  min-height: 10000px;
 }
 
 #map .level-pin {

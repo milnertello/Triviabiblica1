@@ -573,24 +573,23 @@
         allQuestions = [...bank];
       }
       
-      // Filtrar preguntas para que solo queden las de los niveles 1-50
-      allQuestions = allQuestions.filter(q => (q.lvl || 1) <= 50);
+      allQuestions = allQuestions.filter(q => (q.lvl || 1) <= 100);
       
-      console.log(`Total de preguntas cargadas (filtradas 1-50): ${allQuestions.length}`);
+      console.log(`Total de preguntas cargadas (niveles 1-100): ${allQuestions.length}`);
       
       // Verificar distribución por niveles
       let distribution = {};
-      for (let i = 1; i <= 50; i++) distribution[i] = 0;
+      for (let i = 1; i <= 100; i++) distribution[i] = 0;
       
       allQuestions.forEach(q => {
         const lvl = q.lvl || 1;
-        if (lvl >= 1 && lvl <= 50) {
+        if (lvl >= 1 && lvl <= 100) {
           distribution[lvl] = (distribution[lvl] || 0) + 1;
         }
       });
       
       console.log('Distribución de preguntas por nivel:', distribution);
-      console.log(`Total: ${allQuestions.length} preguntas en 50 niveles`);
+      console.log(`Total: ${allQuestions.length} preguntas en 100 niveles`);
     }
 
     // Función para distribuir preguntas por nivel (solo bank original)
@@ -735,12 +734,12 @@
     const onboardingContent = {
       es: [
         { title: "Bienvenido a Trivia Bíblica: Aprende Jugando", body: "Responde preguntas biblicas y gana monedas en cada partida." },
-        { title: "Sube de nivel", body: "Necesitas 7/10 para avanzar. Completa niveles para desbloquear nuevos retos." },
+        { title: "Sube de nivel", body: "Necesitas al menos el 70% para avanzar. Completa niveles para desbloquear nuevos retos." },
         { title: "Haz rachas y premios", body: "Acierta seguido para sumar mas monedas y mejorar tu record en supervivencia." }
       ],
       en: [
         { title: "Welcome to Trivia Bíblica: Aprende Jugando", body: "Answer Bible questions and earn coins in every match." },
-        { title: "Level up", body: "You need 7/10 to advance. Clear levels to unlock new challenges." },
+        { title: "Level up", body: "You need at least 70% to advance. Clear levels to unlock new challenges." },
         { title: "Build streaks and rewards", body: "Get consecutive correct answers for more coins and a better survival record." }
       ]
     };
@@ -1196,17 +1195,17 @@
       story: {
         es: {
           title: "📖 Modo Historia",
-          body: "Avanza por niveles. Necesitas 7/10 para desbloquear el siguiente nivel.",
+          body: "Avanza por niveles. Necesitas al menos el 70% para desbloquear el siguiente nivel.",
           tips: ["🗺️ Elige un nivel en el mapa", "⭐ Responde 10 preguntas", "🪙 Ganas monedas por tus aciertos"]
         },
         en: {
           title: "📖 Story Mode",
-          body: "Advance through levels. You need 7/10 to unlock the next level.",
+          body: "Advance through levels. You need at least 70% to unlock the next level.",
           tips: ["🗺️ Pick a level on the map", "⭐ Answer 10 questions", "🪙 Earn coins for correct answers"]
         },
         qu: {
           title: "📖 Ñawpaq Willay",
-          body: "Niveltakama puriy. 7/10 necesitanki qatiq nivelta kichanapaq.",
+          body: "Niveltakama puriy. Aswan 70% allin kutichiy qatiq nivelta kichanapaq.",
           tips: ["🗺️ Mapapi nivelta akllay", "⭐ 10 tapukuykunata kutichiy", "🪙 Allin kutichisqaykimanta qullqita chaskinki"]
         }
       },
@@ -1536,7 +1535,7 @@
         categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl <= 30);
       } else if (category === 'newTestament') {
         const currentBank = getQuestionBank();
-        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl >= 31 && currentBank[i].lvl <= 50);
+        categoryIndices = currentBank.map((q, i) => i).filter(i => currentBank[i].lvl >= 31 && currentBank[i].lvl <= 100);
       } else if (category === 'characters') {
         const currentBank = getQuestionBank();
         // Búsqueda simple de palabras clave relacionadas con personajes
@@ -1547,7 +1546,7 @@
         });
       } else if (category === 'trueFalse') {
         // For true/false, use special bank
-        questions = shuffle([...trueFalseBank]);
+        questions = shuffle([...trueFalseBank]).slice(0, 10);
         show("quiz");
         nextQ();
         return;
@@ -1562,8 +1561,18 @@
       nextQ();
     }
 
+    function getPassingScore(total = questions.length) {
+      return Math.ceil(total * 0.7);
+    }
+
+    function getEarnedStars(currentScore, total = questions.length) {
+      if (currentScore === total) return 3;
+      if (currentScore >= Math.ceil(total * 0.8)) return 2;
+      return 1;
+    }
+
     function finishCategory() {
-      let earnedStars = score === 10 ? 3 : (score >= 8 ? 2 : 1);
+      let earnedStars = getEarnedStars(score, questions.length);
       
       let categoryNames = {
         'oldTestament': 
@@ -1599,6 +1608,7 @@
           lang === "qu" ? "¡Categoría tukurqan! 🎉" :
           "Category completed! 🎉";
         document.getElementById("congrats-score-num").innerText = score;
+        document.querySelector("#congrats .score-den").innerText = `/${questions.length}`;
         
         let sc = document.getElementById("congratsStars");
         renderStars(sc, 3, earnedStars);
@@ -1628,11 +1638,12 @@
           lang === "qu" ? "7 o aswan necesitanki categoriata tukunapaq. ¡Qan atipawaq! 🌈" :
           "You need 7 or more to complete the category. You can do it! 🌈";
         document.getElementById("try-score-num").innerText = score;
-        document.getElementById("try-score-den").innerText = "/10";
+        document.getElementById("try-score-den").innerText = `/${questions.length}`;
         document.getElementById("retryBtn").style.display = "inline-flex";
         document.getElementById("retryBtn").onclick = () => startCategory(currentCategory);
         show("tryagain");
       }
+
     }
 
     // Función para generar datos de preview de cualquier nivel (1-100)
@@ -1842,7 +1853,7 @@
             lang === "es" ? "Pregunta " :
             lang === "qu" ? "Tapukuy " :
             "Question "
-          ) + (index + 1) + "/10";
+          ) + (index + 1) + "/" + questions.length;
       } else {
         document.getElementById("quiz-label").innerText =
           "⭐ " + (
@@ -1853,7 +1864,7 @@
             lang === "es" ? "Pregunta " :
             lang === "qu" ? "Tapukuy " :
             "Question "
-          ) + (index + 1) + "/10";
+          ) + (index + 1) + "/" + questions.length;
       }
 
       if(!isSurvival){
@@ -2107,7 +2118,7 @@
         return;
       }
 
-      if (score >= 7) {
+      if (score >= getPassingScore()) {
         let bgAudio = document.getElementById("bgMusic");
         if (bgAudio) bgAudio.pause();
 
@@ -2117,7 +2128,7 @@
           vAudio.play().catch(e => {});
         }
 
-        let earnedStars = score === 10 ? 3 : (score >= 8 ? 2 : 1);
+        let earnedStars = getEarnedStars(score);
         if (!levelStars[level] || earnedStars > levelStars[level]) {
           levelStars[level] = earnedStars;
           localStorage.setItem('levelStars', JSON.stringify(levelStars));
@@ -2128,12 +2139,13 @@
           lang === "qu" ? "¡Allinlla! 🎉" :
           "Congratulations! 🎉";
         document.getElementById("congrats-score-num").innerText = score;
+        document.querySelector("#congrats .score-den").innerText = `/${questions.length}`;
         
         let sc = document.getElementById("congratsStars");
         renderStars(sc, 3, earnedStars);
 
         let nextBtn = document.getElementById("nextBtn");
-        nextBtn.innerText = level < 50
+        nextBtn.innerText = level < 100
           ? (
               lang === "es" ? "Siguiente nivel 🚀" :
               lang === "qu" ? "Qatiq nivel 🚀" :
@@ -2144,20 +2156,17 @@
               lang === "qu" ? "🗺️ Mapaman kutiy" :
               "Back to map 🗺️"
             );
-        nextBtn.style.display = level < 50 ? "inline-flex" : "none";
+        nextBtn.style.display = level < 100 ? "inline-flex" : "none";
         nextBtn.onclick = nextLevel;
         
         show("congrats");
         startContinuousConfetti();
-        if (score >= 7) {
-          const oldUnlocked = unlocked;
-          unlocked = Math.max(unlocked, level + 1);
-          localStorage.setItem('unlocked', unlocked);
-          
-          // Si se desbloqueó un nivel nuevo, marcarlo para animación
-          if (unlocked > oldUnlocked) {
-            sessionStorage.setItem('newlyUnlocked', unlocked);
-          }
+        const oldUnlocked = unlocked;
+        unlocked = Math.max(unlocked, Math.min(level + 1, 100));
+        localStorage.setItem('unlocked', unlocked);
+
+        if (unlocked > oldUnlocked) {
+          sessionStorage.setItem('newlyUnlocked', unlocked);
         }
         updateLocks();
       } else {
@@ -2170,12 +2179,13 @@
           lang === "es" ? "¡Inténtalo de nuevo!" :
           lang === "qu" ? "¡Musk'aq ruray!" :
           "Try again!";
+        const passingScore = getPassingScore();
         document.getElementById("tryMsg").innerText = 
-          lang === "es" ? "Necesitas 7 o más para avanzar. ¡Tú puedes! 🌈" :
-          lang === "qu" ? "7 o aswan necesitanki ñawpaqman riyta. ¡Qan atipawaq! 🌈" :
-          "You need 7 or more to advance. You can do it! 🌈";
+          lang === "es" ? `Necesitas ${passingScore} o más para avanzar. ¡Tú puedes! 🌈` :
+          lang === "qu" ? `${passingScore} o aswan necesitanki ñawpaqman riyta. ¡Qan atipawaq! 🌈` :
+          `You need ${passingScore} or more to advance. You can do it! 🌈`;
         document.getElementById("try-score-num").innerText = score;
-        document.getElementById("try-score-den").innerText = "/10";
+        document.getElementById("try-score-den").innerText = `/${questions.length}`;
         document.getElementById("retryBtn").style.display = "inline-flex";
         show("tryagain");
       }
@@ -2223,7 +2233,7 @@
       const unlockedEl = document.getElementById("homeUnlockedText");
       const coinsEl = document.getElementById("homeCoinsText");
       const accEl = document.getElementById("homeAccuracyText");
-      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 50)}/50`;
+      if (unlockedEl) unlockedEl.innerText = `${Math.min(unlocked, 100)}/100`;
       if (coinsEl) coinsEl.innerText = String(coins);
       const accuracy = stats.answered > 0 ? Math.round((stats.correct / stats.answered) * 100) : 0;
       if (accEl) accEl.innerText = `${accuracy}%`;
@@ -2236,17 +2246,16 @@
       
       const mapPathContent = document.querySelector('.map-path-content');
       if (mapPathContent) {
-        mapPathContent.style.height = '7500px';
+        mapPathContent.style.height = '10000px';
       }
       
-      // Si ya están todos, no hacer nada
-      if (container.children.length > 50) return;
+      if (container.children.length >= 100) return;
       
       const leftPositions = [27, 62, 40, 72, 54, 86, 75, 50, 28, 15, 50, 78, 84, 62, 38];
       const baseTop = 22; // Empezar después del nivel 15 (que está en 22%)
-      const spacing = 1.5; // Espaciado ajustado para 50 niveles en 6000px
+      const spacing = 0.9;
       
-      for (let i = 16; i <= 50; i++) {
+      for (let i = 16; i <= 100; i++) {
         let pin = document.getElementById('lvlPin' + i);
         if (!pin) {
           pin = document.createElement('div');
@@ -2262,7 +2271,7 @@
           pin.dataset.level = i;
 
           let houseEmoji = i % 2 === 0 ? '🏘️' : '🏠';
-          if (i === 50) houseEmoji = '🏰';
+          if (i === 100) houseEmoji = '🏰';
 
           pin.innerHTML = `
             <div class="level locked" id="lvl${i}">${i}</div>
@@ -2283,21 +2292,21 @@
 
     function updateLocks() {
       let completedLevels = 0;
-      for (let i = 1; i <= 50; i++) {
+      for (let i = 1; i <= 100; i++) {
         if (levelStars[i] > 0) completedLevels++;
       }
       
-      const progressPercent = Math.round((completedLevels / 50) * 100);
+      const progressPercent = Math.round((completedLevels / 100) * 100);
       const progressTextEl = document.getElementById('progressText');
       const progressBarFillEl = document.getElementById('progressBarFill');
       
       if (progressTextEl) progressTextEl.innerText = `${progressPercent}%`;
       if (progressBarFillEl) progressBarFillEl.style.width = `${progressPercent}%`;
 
-      // Volver a generar niveles dinámicos (16-50)
+      // Crear los niveles que todavía no existen en el mapa.
       generateDynamicLevels();
 
-      for (let i = 1; i <= 50; i++) {
+      for (let i = 1; i <= 100; i++) {
         let el = document.getElementById("lvl" + i);
         let lockEl = document.getElementById("lock" + i);
         let sc = document.getElementById("stars" + i);
@@ -2363,7 +2372,7 @@
       
       pathContainer.innerHTML = '';
 
-      for (let i = 1; i < 50; i++) {
+      for (let i = 1; i < 100; i++) {
         const pin1 = document.getElementById('lvlPin' + i);
         const pin2 = document.getElementById('lvlPin' + (i + 1));
         
@@ -2414,7 +2423,7 @@
       particlesContainer.innerHTML = '';
       
       // Crear partículas para cada nivel desbloqueado
-      for (let i = 1; i <= Math.min(unlocked, 50); i++) {
+      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
         const levelPin = document.getElementById(`lvlPin${i}`);
         if (!levelPin) continue;
         
@@ -2499,7 +2508,7 @@
       wavesContainer.innerHTML = '';
       
       // Crear ondas para cada nivel desbloqueado
-      for (let i = 1; i <= Math.min(unlocked, 50); i++) {
+      for (let i = 1; i <= Math.min(unlocked, 100); i++) {
         const levelPin = document.getElementById(`lvlPin${i}`);
         if (!levelPin) continue;
         

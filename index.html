@@ -922,16 +922,9 @@
 
         function cambiarIdioma(lang) {
             localStorage.setItem('lang', lang);
+            document.documentElement.lang = lang;
             cerrarModalIdioma();
-            // Mostrar un pequeño feedback visual antes de cerrar o recargar si fuera necesario
-            const btn = event.currentTarget;
-            const originalText = btn.innerHTML;
-            btn.innerHTML = "✅ Seleccionado";
-            setTimeout(() => {
-                btn.innerHTML = originalText;
-                // Opcional: Recargar o actualizar textos de la página actual
-                location.reload(); 
-            }, 500);
+            actualizarTextosSegunIdioma();
         }
 
         // Funciones del modal
@@ -969,21 +962,16 @@
 
         async function aplicarVersiculoDiario() {
             const currentLang = localStorage.getItem('lang') || 'es';
-            const labels = {
-                es: '📜 Texto de hoy',
-                qu: '📜 Kunan p’unchaypa texto',
-                en: '📜 Text of the day'
-            };
-
             const labelEl = document.querySelector('.etiqueta-versiculo');
             const textEl = document.querySelector('.versiculo-destacado p');
             const refEl = document.querySelector('.versiculo-referencia');
 
-            if (!labelEl || !textEl || !refEl) return;
+            if (currentLang !== 'es' || !labelEl || !textEl || !refEl) return;
 
             try {
                 const verse = await window.getDailyTextForDate();
-                labelEl.innerText = labels[currentLang] || labels.es;
+                if (localStorage.getItem('lang') !== 'es') return;
+                labelEl.innerText = '📜 Texto de hoy';
                 textEl.innerText = `"${verse.text}"`;
                 refEl.innerText = `- ${verse.ref}`;
             } catch (error) {
