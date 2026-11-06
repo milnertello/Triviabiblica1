@@ -967,26 +967,40 @@
             }
         }
 
-        // Ejecutar al cargar
-        document.addEventListener('DOMContentLoaded', () => {
-            crearPartículas();
-            actualizarTextosSegunIdioma();
-            actualizarTextoDiarioMovil();
-        });
-
-        function actualizarTextoDiarioMovil() {
-            if (!window.matchMedia('(max-width: 1024px)').matches) return;
-
-            const verse = window.getDailyTextForDate();
+        async function aplicarVersiculoDiario() {
             const currentLang = localStorage.getItem('lang') || 'es';
             const labels = {
                 es: '📜 Texto de hoy',
                 qu: '📜 Kunan p’unchaypa texto',
                 en: '📜 Text of the day'
             };
-            document.querySelector('.etiqueta-versiculo').innerText = labels[currentLang] || labels.es;
-            document.querySelector('.versiculo-destacado p').innerText = `"${verse.text}"`;
-            document.querySelector('.versiculo-referencia').innerText = `- ${verse.ref}`;
+
+            const labelEl = document.querySelector('.etiqueta-versiculo');
+            const textEl = document.querySelector('.versiculo-destacado p');
+            const refEl = document.querySelector('.versiculo-referencia');
+
+            if (!labelEl || !textEl || !refEl) return;
+
+            try {
+                const verse = await window.getDailyTextForDate();
+                labelEl.innerText = labels[currentLang] || labels.es;
+                textEl.innerText = `"${verse.text}"`;
+                refEl.innerText = `- ${verse.ref}`;
+            } catch (error) {
+                console.error('No se pudo mostrar el texto bíblico del día:', error);
+            }
+        }
+
+        // Ejecutar al cargar
+        document.addEventListener('DOMContentLoaded', () => {
+            crearPartículas();
+            actualizarTextosSegunIdioma();
+            aplicarVersiculoDiario();
+        });
+
+        function actualizarTextoDiarioMovil() {
+            if (!window.matchMedia('(max-width: 1024px)').matches) return;
+            aplicarVersiculoDiario();
         }
 
         function actualizarPortadaSegunAncho() {
@@ -1002,6 +1016,7 @@
 
         function actualizarTextosSegunIdioma() {
             const currentLang = localStorage.getItem('lang') || 'es';
+            aplicarVersiculoDiario();
             const dict = {
                 es: {
                     tituloMain: "✨ Sabiduría Bíblica Quiz ✨",

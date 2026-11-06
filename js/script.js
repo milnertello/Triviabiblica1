@@ -2875,14 +2875,17 @@
     // Inicializar variable musical antes de llamar a show()
     let musicStarted = false;
 
-    function loadDailyText() {
-      const verse = window.getDailyTextForDate();
-      
+    async function loadDailyText() {
       const bodyEl = document.getElementById("dailyTextBody");
       const refEl = document.getElementById("dailyTextRef");
       if (bodyEl && refEl) {
-        bodyEl.innerText = '"' + verse.text + '"';
-        refEl.innerText = "- " + verse.ref;
+        try {
+          const verse = await window.getDailyTextForDate();
+          bodyEl.innerText = '"' + verse.text + '"';
+          refEl.innerText = "- " + verse.ref;
+        } catch (error) {
+          console.error('No se pudo mostrar el texto bíblico del día:', error);
+        }
       }
     }
 
