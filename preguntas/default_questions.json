@@ -95,8 +95,14 @@
       "tema": "Josué - Jericó",
       "pregunta": "¿Quién derribó los muros de Jericó?",
       "opciones": { "A": "Josué", "B": "Moisés", "C": "David", "D": "Sansón" },
+      "pregunta_en": "Who brought down the walls of Jericho?",
+      "pregunta_qu": "¿Pitaq Jerico llaqtapa murallankunata tuñichirqa?",
+      "opciones_en": { "A": "Joshua", "B": "Moses", "C": "David", "D": "Samson" },
+      "opciones_qu": { "A": "Josué", "B": "Moisés", "C": "David", "D": "Sansón" },
       "respuesta_correcta": "A",
-      "explicacion": "Josué 6:20 - El muro cayó."
+      "explicacion": "Josué 6:20 - El muro cayó.",
+      "explicacion_en": "Joshua 6:20 - The wall fell.",
+      "explicacion_qu": "Josué 6:20 - Perqa urmaykusqa."
     },
     {
       "id": 10,
@@ -105,8 +111,14 @@
       "tema": "1 Samuel - David",
       "pregunta": "¿Quién venció a Goliat?",
       "opciones": { "A": "David", "B": "Saúl", "C": "Samuel", "D": "Jonatán" },
+      "pregunta_en": "Who defeated Goliath?",
+      "pregunta_qu": "¿Pitaq Goliatta atiparqa?",
+      "opciones_en": { "A": "David", "B": "Saul", "C": "Samuel", "D": "Jonathan" },
+      "opciones_qu": { "A": "David", "B": "Saúl", "C": "Samuel", "D": "Jonatan" },
       "respuesta_correcta": "A",
-      "explicacion": "1 Samuel 17:50 - David venció."
+      "explicacion": "1 Samuel 17:50 - David venció.",
+      "explicacion_en": "1 Samuel 17:50 - David defeated him.",
+      "explicacion_qu": "1 Samuel 17:50 - David atiparqan."
     },
     {
       "id": 11,
@@ -115,8 +127,14 @@
       "tema": "Génesis - Matusalén",
       "pregunta": "¿Cuántos años vivió Matusalén?",
       "opciones": { "A": "969", "B": "777", "C": "900", "D": "800" },
+      "pregunta_en": "How many years did Methuselah live?",
+      "pregunta_qu": "¿Hayka watataq Matusalénqa kawsarqa?",
+      "opciones_en": { "A": "969", "B": "777", "C": "900", "D": "800" },
+      "opciones_qu": { "A": "969", "B": "777", "C": "900", "D": "800" },
       "respuesta_correcta": "A",
-      "explicacion": "Génesis 5:27 - Matusalén vivió 969 años."
+      "explicacion": "Génesis 5:27 - Matusalén vivió 969 años.",
+      "explicacion_en": "Genesis 5:27 - Methuselah lived 969 years.",
+      "explicacion_qu": "Génesis 5:27 - Matusalénqa 969 wata kawsarqan."
     },
     {
       "id": 12,
@@ -125,8 +143,14 @@
       "tema": "Daniel - Foso de leones",
       "pregunta": "¿Quién fue arrojado al foso de los leones?",
       "opciones": { "A": "Daniel", "B": "Jonás", "C": "Pablo", "D": "Pedro" },
+      "pregunta_en": "Who was thrown into the lions' den?",
+      "pregunta_qu": "¿Pitataq leonkunapa uchkunman wischusqaku?",
+      "opciones_en": { "A": "Daniel", "B": "Jonah", "C": "Paul", "D": "Peter" },
+      "opciones_qu": { "A": "Daniel", "B": "Jonas", "C": "Pablo", "D": "Pedro" },
       "respuesta_correcta": "A",
-      "explicacion": "Daniel 6:16 - Daniel fue arrojado."
+      "explicacion": "Daniel 6:16 - Daniel fue arrojado.",
+      "explicacion_en": "Daniel 6:16 - Daniel was thrown in.",
+      "explicacion_qu": "Daniel 6:16 - Danielta wikch'uykurqanku."
     },
     {
       "id": 13,
@@ -135,8 +159,14 @@
       "tema": "Jonás - El gran pez",
       "pregunta": "¿Quién fue tragado por un gran pez?",
       "opciones": { "A": "Jonás", "B": "Elías", "C": "Ezequiel", "D": "Isaías" },
+      "pregunta_en": "Who was swallowed by a great fish?",
+      "pregunta_qu": "¿Pitataq hatun challwa millp'usqa?",
+      "opciones_en": { "A": "Jonah", "B": "Elijah", "C": "Ezekiel", "D": "Isaiah" },
+      "opciones_qu": { "A": "Jonas", "B": "Elias", "C": "Ezequiel", "D": "Isaias" },
       "respuesta_correcta": "A",
-      "explicacion": "Jonás 1:17 - Un gran pez tragó a Jonás."
+      "explicacion": "Jonás 1:17 - Un gran pez tragó a Jonás.",
+      "explicacion_en": "Jonah 1:17 - A great fish swallowed Jonah.",
+      "explicacion_qu": "Jonas 1:17 - Huk hatun challwa Jonasta millp'urqan."
     },
     {
       "id": 14,
@@ -145,8 +175,14 @@
       "tema": "1 Reyes - Salomón",
       "pregunta": "¿Quién fue el rey más sabio de Israel?",
       "opciones": { "A": "Salomón", "B": "David", "C": "Saúl", "D": "Ezequías" },
+      "pregunta_en": "Who was the wisest king of Israel?",
+      "pregunta_qu": "¿Pitaq Israelpa aswan yachaysapa reynin karqa?",
+      "opciones_en": { "A": "Solomon", "B": "David", "C": "Saul", "D": "Hezekiah" },
+      "opciones_qu": { "A": "Salomon", "B": "David", "C": "Saul", "D": "Ezequías" },
       "respuesta_correcta": "A",
-      "explicacion": "1 Reyes 4:31 - Salomón fue el más sabio."
+      "explicacion": "1 Reyes 4:31 - Salomón fue el más sabio.",
+      "explicacion_en": "1 Kings 4:31 - Solomon was the wisest.",
+      "explicacion_qu": "1 Reyes 4:31 - Salomonmi aswan yachaysapa karqan."
     },
     {
       "id": 15,
@@ -155,8 +191,14 @@
       "tema": "Jueces - Sansón",
       "pregunta": "¿Quién venció a los filisteos con quijada de asno?",
       "opciones": { "A": "Sansón", "B": "David", "C": "Gedeón", "D": "Josué" },
+      "pregunta_en": "Who defeated the Philistines with a donkey's jawbone?",
+      "pregunta_qu": "¿Pitaq asnopa wasanwan filisteokunata atiparqa?",
+      "opciones_en": { "A": "Samson", "B": "David", "C": "Gideon", "D": "Joshua" },
+      "opciones_qu": { "A": "Sanson", "B": "David", "C": "Gedeon", "D": "Josue" },
       "respuesta_correcta": "A",
-      "explicacion": "Jueces 15:15 - Hirió a mil hombres."
+      "explicacion": "Jueces 15:15 - Hirió a mil hombres.",
+      "explicacion_en": "Judges 15:15 - He struck down a thousand men.",
+      "explicacion_qu": "Jueces 15:15 - Waranqa runakunatam wañuchirqa."
     },
     {
       "id": 16,
@@ -165,8 +207,14 @@
       "tema": "1 Reyes - Templo",
       "pregunta": "¿Quién construyó el templo de Jerusalén?",
       "opciones": { "A": "Salomón", "B": "David", "C": "Ezequías", "D": "Josías" },
+      "pregunta_en": "Who built the temple in Jerusalem?",
+      "pregunta_qu": "¿Pitaq Jerusalén llaqtapi templota hatarichirqa?",
+      "opciones_en": { "A": "Solomon", "B": "David", "C": "Hezekiah", "D": "Josiah" },
+      "opciones_qu": { "A": "Salomon", "B": "David", "C": "Ezequias", "D": "Josias" },
       "respuesta_correcta": "A",
-      "explicacion": "1 Reyes 6:1 - Salomón edificó la casa."
+      "explicacion": "1 Reyes 6:1 - Salomón edificó la casa.",
+      "explicacion_en": "1 Kings 6:1 - Solomon built the house.",
+      "explicacion_qu": "1 Reyes 6:1 - Salomon wasita rurarqan."
     },
     {
       "id": 17,

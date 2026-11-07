@@ -1,7 +1,7 @@
 // © 2026 Milner Tello Guzman. Todos los derechos reservados.
 
 // Service Worker para cacheo offline y PWA
-const CACHE_NAME = 'trivia-biblica-v1.5';
+const CACHE_NAME = 'trivia-biblica-v1.6';
 const urlsToCache = [
   'index.html',
   'juego.html',
@@ -10,6 +10,7 @@ const urlsToCache = [
   'js/script.js',
   'js/daily-texts.js',
   'js/daily-texts.json',
+  'preguntas/preguntas_banco_180.json',
   'icons/icon-192x192.png',
   'icons/icon-512x512.png',
 ].map(path => new URL(path, self.registration.scope).href);

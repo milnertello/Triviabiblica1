@@ -1,0 +1,2838 @@
+{
+  "metadata": {
+    "total_preguntas": 180,
+    "niveles_generados": "1-30",
+    "dificultad": "Selecci?n de las preguntas m?s f?ciles disponibles en cada nivel",
+    "descripcion": "Seis preguntas f?ciles por nivel para conservar los 30 niveles."
+  },
+  "preguntas": [
+    {
+      "id": 1,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién fue el primer hombre?",
+      "opciones": {
+        "A": "Adán",
+        "B": "Noé",
+        "C": "Abraham",
+        "D": "Moisés"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 2:7 - Jehová Dios formó al hombre del polvo del suelo."
+    },
+    {
+      "id": 2,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién fue la primera mujer?",
+      "opciones": {
+        "A": "Eva",
+        "B": "Sara",
+        "C": "Rebeca",
+        "D": "Raquel"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 2:22 - De la costilla hizo una mujer."
+    },
+    {
+      "id": 3,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Noé",
+      "pregunta": "¿Quién construyó el arca?",
+      "opciones": {
+        "A": "Noé",
+        "B": "Moisés",
+        "C": "David",
+        "D": "Abraham"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 6:14 - Hazte un arca de madera resinosa."
+    },
+    {
+      "id": 4,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Diluvio",
+      "pregunta": "¿Cuántos días llovió en el Diluvio?",
+      "opciones": {
+        "A": "40",
+        "B": "7",
+        "C": "100",
+        "D": "30"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 7:12 - Llovió 40 días y 40 noches."
+    },
+    {
+      "id": 5,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Quién mató a Abel?",
+      "opciones": {
+        "A": "Caín",
+        "B": "Set",
+        "C": "Noé",
+        "D": "Abraham"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 4:8 - Caín atacó a su hermano."
+    },
+    {
+      "id": 6,
+      "nivel": 1,
+      "dificultad": 1,
+      "tema": "Génesis - Creación",
+      "pregunta": "¿Quién creó los cielos y la tierra según Génesis 1:1?",
+      "opciones": {
+        "A": "Jesús",
+        "B": "Dios",
+        "C": "Los ángeles",
+        "D": "El hombre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 1:1 dice: 'En el principio Dios creó los cielos y la tierra.'"
+    },
+    {
+      "id": 7,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - José",
+      "pregunta": "¿Quién interpretó sueños en Egipto?",
+      "opciones": {
+        "A": "José",
+        "B": "Moisés",
+        "C": "Daniel",
+        "D": "David"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 41:15 - Dios dará respuesta."
+    },
+    {
+      "id": 8,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Quién guió a Israel fuera de Egipto?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Abraham",
+        "C": "Isaac",
+        "D": "Jacob"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 3:10 - Saca a mi pueblo."
+    },
+    {
+      "id": 9,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Éxodo - Diez Mandamientos",
+      "pregunta": "¿Quién recibió los Diez Mandamientos?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "David",
+        "C": "Salomón",
+        "D": "Abraham"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 31:18 - Dios dio las tablas."
+    },
+    {
+      "id": 10,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Quién derribó los muros de Jericó?",
+      "opciones": {
+        "A": "Josué",
+        "B": "Moisés",
+        "C": "David",
+        "D": "Sansón"
+      },
+      "pregunta_en": "Who brought down the walls of Jericho?",
+      "pregunta_qu": "¿Pitaq Jerico llaqtapa murallankunata tuñichirqa?",
+      "opciones_en": {
+        "A": "Joshua",
+        "B": "Moses",
+        "C": "David",
+        "D": "Samson"
+      },
+      "opciones_qu": {
+        "A": "Josué",
+        "B": "Moisés",
+        "C": "David",
+        "D": "Sansón"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Josué 6:20 - El muro cayó.",
+      "explicacion_en": "Joshua 6:20 - The wall fell.",
+      "explicacion_qu": "Josué 6:20 - Perqa urmaykusqa."
+    },
+    {
+      "id": 11,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién venció a Goliat?",
+      "opciones": {
+        "A": "David",
+        "B": "Saúl",
+        "C": "Samuel",
+        "D": "Jonatán"
+      },
+      "pregunta_en": "Who defeated Goliath?",
+      "pregunta_qu": "¿Pitaq Goliatta atiparqa?",
+      "opciones_en": {
+        "A": "David",
+        "B": "Saul",
+        "C": "Samuel",
+        "D": "Jonathan"
+      },
+      "opciones_qu": {
+        "A": "David",
+        "B": "Saúl",
+        "C": "Samuel",
+        "D": "Jonatan"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 17:50 - David venció.",
+      "explicacion_en": "1 Samuel 17:50 - David defeated him.",
+      "explicacion_qu": "1 Samuel 17:50 - David atiparqan."
+    },
+    {
+      "id": 12,
+      "nivel": 2,
+      "dificultad": 2,
+      "tema": "Génesis - Caín y Abel",
+      "pregunta": "¿Cuál de estos hermanos era pastor de ovejas?",
+      "opciones": {
+        "A": "Caín",
+        "B": "Set",
+        "C": "Abel",
+        "D": "Enoc"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 4:2 dice que Abel vino a ser pastor de ovejas, mientras que Caín cultivaba la tierra."
+    },
+    {
+      "id": 13,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Matusalén",
+      "pregunta": "¿Cuántos años vivió Matusalén?",
+      "opciones": {
+        "A": "969",
+        "B": "777",
+        "C": "900",
+        "D": "800"
+      },
+      "pregunta_en": "How many years did Methuselah live?",
+      "pregunta_qu": "¿Hayka watataq Matusalénqa kawsarqa?",
+      "opciones_en": {
+        "A": "969",
+        "B": "777",
+        "C": "900",
+        "D": "800"
+      },
+      "opciones_qu": {
+        "A": "969",
+        "B": "777",
+        "C": "900",
+        "D": "800"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 5:27 - Matusalén vivió 969 años.",
+      "explicacion_en": "Genesis 5:27 - Methuselah lived 969 years.",
+      "explicacion_qu": "Génesis 5:27 - Matusalénqa 969 wata kawsarqan."
+    },
+    {
+      "id": 14,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Daniel - Foso de leones",
+      "pregunta": "¿Quién fue arrojado al foso de los leones?",
+      "opciones": {
+        "A": "Daniel",
+        "B": "Jonás",
+        "C": "Pablo",
+        "D": "Pedro"
+      },
+      "pregunta_en": "Who was thrown into the lions' den?",
+      "pregunta_qu": "¿Pitataq leonkunapa uchkunman wischusqaku?",
+      "opciones_en": {
+        "A": "Daniel",
+        "B": "Jonah",
+        "C": "Paul",
+        "D": "Peter"
+      },
+      "opciones_qu": {
+        "A": "Daniel",
+        "B": "Jonas",
+        "C": "Pablo",
+        "D": "Pedro"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel 6:16 - Daniel fue arrojado.",
+      "explicacion_en": "Daniel 6:16 - Daniel was thrown in.",
+      "explicacion_qu": "Daniel 6:16 - Danielta wikch'uykurqanku."
+    },
+    {
+      "id": 15,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Jonás - El gran pez",
+      "pregunta": "¿Quién fue tragado por un gran pez?",
+      "opciones": {
+        "A": "Jonás",
+        "B": "Elías",
+        "C": "Ezequiel",
+        "D": "Isaías"
+      },
+      "pregunta_en": "Who was swallowed by a great fish?",
+      "pregunta_qu": "¿Pitataq hatun challwa millp'usqa?",
+      "opciones_en": {
+        "A": "Jonah",
+        "B": "Elijah",
+        "C": "Ezekiel",
+        "D": "Isaiah"
+      },
+      "opciones_qu": {
+        "A": "Jonas",
+        "B": "Elias",
+        "C": "Ezequiel",
+        "D": "Isaias"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jonás 1:17 - Un gran pez tragó a Jonás.",
+      "explicacion_en": "Jonah 1:17 - A great fish swallowed Jonah.",
+      "explicacion_qu": "Jonas 1:17 - Huk hatun challwa Jonasta millp'urqan."
+    },
+    {
+      "id": 16,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Quién fue el rey más sabio de Israel?",
+      "opciones": {
+        "A": "Salomón",
+        "B": "David",
+        "C": "Saúl",
+        "D": "Ezequías"
+      },
+      "pregunta_en": "Who was the wisest king of Israel?",
+      "pregunta_qu": "¿Pitaq Israelpa aswan yachaysapa reynin karqa?",
+      "opciones_en": {
+        "A": "Solomon",
+        "B": "David",
+        "C": "Saul",
+        "D": "Hezekiah"
+      },
+      "opciones_qu": {
+        "A": "Salomon",
+        "B": "David",
+        "C": "Saul",
+        "D": "Ezequías"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 4:31 - Salomón fue el más sabio.",
+      "explicacion_en": "1 Kings 4:31 - Solomon was the wisest.",
+      "explicacion_qu": "1 Reyes 4:31 - Salomonmi aswan yachaysapa karqan."
+    },
+    {
+      "id": 17,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Quién venció a los filisteos con quijada de asno?",
+      "opciones": {
+        "A": "Sansón",
+        "B": "David",
+        "C": "Gedeón",
+        "D": "Josué"
+      },
+      "pregunta_en": "Who defeated the Philistines with a donkey's jawbone?",
+      "pregunta_qu": "¿Pitaq asnopa wasanwan filisteokunata atiparqa?",
+      "opciones_en": {
+        "A": "Samson",
+        "B": "David",
+        "C": "Gideon",
+        "D": "Joshua"
+      },
+      "opciones_qu": {
+        "A": "Sanson",
+        "B": "David",
+        "C": "Gedeon",
+        "D": "Josue"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 15:15 - Hirió a mil hombres.",
+      "explicacion_en": "Judges 15:15 - He struck down a thousand men.",
+      "explicacion_qu": "Jueces 15:15 - Waranqa runakunatam wañuchirqa."
+    },
+    {
+      "id": 18,
+      "nivel": 3,
+      "dificultad": 3,
+      "tema": "Génesis - Abraham",
+      "pregunta": "¿Qué promesa le hizo Dios a Abraham sobre sus descendientes?",
+      "opciones": {
+        "A": "Que serían esclavos en Egipto",
+        "B": "Que serían tantos como las estrellas del cielo",
+        "C": "Que vivirían siempre en Canaán",
+        "D": "Que nunca tendrían enemigos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 15:5 dice que Dios prometió a Abraham que sus descendientes serían como las estrellas del cielo."
+    },
+    {
+      "id": 19,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Quién construyó el templo de Jerusalén?",
+      "opciones": {
+        "A": "Salomón",
+        "B": "David",
+        "C": "Ezequías",
+        "D": "Josías"
+      },
+      "pregunta_en": "Who built the temple in Jerusalem?",
+      "pregunta_qu": "¿Pitaq Jerusalén llaqtapi templota hatarichirqa?",
+      "opciones_en": {
+        "A": "Solomon",
+        "B": "David",
+        "C": "Hezekiah",
+        "D": "Josiah"
+      },
+      "opciones_qu": {
+        "A": "Salomon",
+        "B": "David",
+        "C": "Ezequias",
+        "D": "Josias"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 6:1 - Salomón edificó la casa.",
+      "explicacion_en": "1 Kings 6:1 - Solomon built the house.",
+      "explicacion_qu": "1 Reyes 6:1 - Salomon wasita rurarqan."
+    },
+    {
+      "id": 20,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Éxodo - Plagas",
+      "pregunta": "¿Cuántas plagas envió Dios sobre Egipto?",
+      "opciones": {
+        "A": "10",
+        "B": "7",
+        "C": "12",
+        "D": "5"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 7-12 - Diez plagas sobre Egipto."
+    },
+    {
+      "id": 21,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Éxodo - Moisés",
+      "pregunta": "¿Quién era la madre de Moisés?",
+      "opciones": {
+        "A": "Jocabed",
+        "B": "Miriam",
+        "C": "Séfora",
+        "D": "Lea"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 6:20 - Jocabed, hija de Leví."
+    },
+    {
+      "id": 22,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Números - Desierto",
+      "pregunta": "¿Cuántos años estuvo Israel en el desierto?",
+      "opciones": {
+        "A": "40",
+        "B": "20",
+        "C": "50",
+        "D": "30"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Números 14:33 - Cuarenta años en el desierto."
+    },
+    {
+      "id": 23,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "1 Samuel - Saúl",
+      "pregunta": "¿Quién fue el primer rey de Israel?",
+      "opciones": {
+        "A": "Saúl",
+        "B": "David",
+        "C": "Samuel",
+        "D": "Salomón"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 10:1 - Samuel ungió a Saúl."
+    },
+    {
+      "id": 24,
+      "nivel": 4,
+      "dificultad": 4,
+      "tema": "Génesis - Jacob y Esaú",
+      "pregunta": "¿Quién ayudó a Jacob a engañar a Isaac para recibir la bendición del primogénito?",
+      "opciones": {
+        "A": "Su hermano Esaú",
+        "B": "Su madre Rebeca",
+        "C": "Su padre Abraham",
+        "D": "Su siervo Eliezer"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Génesis 27:6-17 describe cómo Rebeca planificó y ayudó a Jacob a engañar a su padre Isaac."
+    },
+    {
+      "id": 25,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién ungió a David como rey?",
+      "opciones": {
+        "A": "Samuel",
+        "B": "Natán",
+        "C": "Gad",
+        "D": "Abimelec"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 16:13 - Samuel ungió a David."
+    },
+    {
+      "id": 26,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "1 Samuel - Goliat",
+      "pregunta": "¿Qué arma usó David contra Goliat?",
+      "opciones": {
+        "A": "Honda",
+        "B": "Espada",
+        "C": "Lanza",
+        "D": "Arco"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Samuel 17:49 - Tomó su honda y una piedra."
+    },
+    {
+      "id": 27,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Éxodo - Sinaí",
+      "pregunta": "¿En qué monte recibió Moisés los mandamientos?",
+      "opciones": {
+        "A": "Sinaí",
+        "B": "Carmelo",
+        "C": "Sion",
+        "D": "Nebo"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 19:20 - Dios descendió al monte Sinaí."
+    },
+    {
+      "id": 28,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Éxodo - Aarón",
+      "pregunta": "¿Quién era el hermano de Moisés?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Josué",
+        "C": "Caleb",
+        "D": "Core"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Éxodo 4:14 - Aarón, el levita, es tu hermano."
+    },
+    {
+      "id": 29,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - Jacob",
+      "pregunta": "¿Cuántos hijos tuvo Jacob?",
+      "opciones": {
+        "A": "12",
+        "B": "10",
+        "C": "7",
+        "D": "13"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Génesis 35:22 - Doce hijos tuvo Jacob."
+    },
+    {
+      "id": 30,
+      "nivel": 5,
+      "dificultad": 5,
+      "tema": "Génesis - José",
+      "pregunta": "¿Por qué fue encarcelado José?",
+      "opciones": {
+        "A": "Por robar",
+        "B": "Por interpretar sueños sin permiso",
+        "C": "Por la falsa acusación de la esposa de Potifar",
+        "D": "Por desobedecer al faraón"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Génesis 39:7-20 narra cómo la esposa de Potifar acusó falsamente a José, y él fue encarcelado."
+    },
+    {
+      "id": 31,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Rut - Boaz",
+      "pregunta": "¿Quién fue el esposo de Rut?",
+      "opciones": {
+        "A": "Boaz",
+        "B": "Elimelec",
+        "C": "Quelión",
+        "D": "Mahlon"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Rut 4:13 - Boaz tomó a Rut por esposa."
+    },
+    {
+      "id": 32,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Rut - Noemí",
+      "pregunta": "¿Quién era la suegra de Rut?",
+      "opciones": {
+        "A": "Noemí",
+        "B": "Débora",
+        "C": "Ana",
+        "D": "Jezabel"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Rut 1:4 - Noemí era su suegra."
+    },
+    {
+      "id": 33,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Quién fue la primera jueza de Israel?",
+      "opciones": {
+        "A": "Débora",
+        "B": "Rut",
+        "C": "Ester",
+        "D": "Abigail"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 4:4 - Débora, profetisa, juzgaba a Israel."
+    },
+    {
+      "id": 34,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "Ester - Reina",
+      "pregunta": "¿Quién salvó a Israel siendo reina?",
+      "opciones": {
+        "A": "Ester",
+        "B": "Rut",
+        "C": "Dalila",
+        "D": "Débora"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Ester 4:14 - Ester salvó a su pueblo."
+    },
+    {
+      "id": 35,
+      "nivel": 6,
+      "dificultad": 1,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Quién fue el profeta del fuego?",
+      "opciones": {
+        "A": "Elías",
+        "B": "Eliseo",
+        "C": "Isaías",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 18:38 - El fuego de Jehová cayó."
+    },
+    {
+      "id": 36,
+      "nivel": 6,
+      "dificultad": 2,
+      "tema": "Éxodo - Moisés nacimiento",
+      "pregunta": "¿En qué río fue puesto Moisés cuando era bebé para salvarlo?",
+      "opciones": {
+        "A": "El río Eufrates",
+        "B": "El río Jordán",
+        "C": "El río Nilo",
+        "D": "El río Tigris"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 2:3 dice que la madre de Moisés lo puso en una canasta en medio de los juncos a la orilla del Nilo."
+    },
+    {
+      "id": 37,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Nacimiento",
+      "pregunta": "¿Dónde nació Jesús?",
+      "opciones": {
+        "A": "Belén",
+        "B": "Nazaret",
+        "C": "Jerusalén",
+        "D": "Capernaum"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 2:1 - Jesús nació en Belén."
+    },
+    {
+      "id": 38,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Bautismo",
+      "pregunta": "¿Quién bautizó a Jesús?",
+      "opciones": {
+        "A": "Juan",
+        "B": "Pedro",
+        "C": "Pablo",
+        "D": "Andrés"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 3:13 - Jesús fue bautizado."
+    },
+    {
+      "id": 39,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Mateo - Discípulos",
+      "pregunta": "¿Cuántos discípulos tuvo Jesús?",
+      "opciones": {
+        "A": "12",
+        "B": "10",
+        "C": "7",
+        "D": "70"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 10:1 - Llamó a doce discípulos."
+    },
+    {
+      "id": 40,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Lucas - Negación",
+      "pregunta": "¿Quién negó a Jesús tres veces?",
+      "opciones": {
+        "A": "Pedro",
+        "B": "Juan",
+        "C": "Tomás",
+        "D": "Andrés"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Lucas 22:61 - Pedro negó."
+    },
+    {
+      "id": 41,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Hechos - Muerte",
+      "pregunta": "¿En qué murió Jesús?",
+      "opciones": {
+        "A": "En un madero",
+        "B": "En cruz",
+        "C": "A espada",
+        "D": "En la horca"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Hechos 5:30 - Colgado en un madero."
+    },
+    {
+      "id": 42,
+      "nivel": 7,
+      "dificultad": 2,
+      "tema": "Éxodo - Las plagas",
+      "pregunta": "¿Cuál fue la primera plaga sobre Egipto?",
+      "opciones": {
+        "A": "Langostas",
+        "B": "Agua convertida en sangre",
+        "C": "Granizo",
+        "D": "Oscuridad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 7:20-21 dice que Moisés convirtió el agua del Nilo en sangre, la primera plaga."
+    },
+    {
+      "id": 43,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Apocalipsis - Juan",
+      "pregunta": "¿Quién escribió Apocalipsis?",
+      "opciones": {
+        "A": "Juan",
+        "B": "Pedro",
+        "C": "Pablo",
+        "D": "Mateo"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Apocalipsis 1:1 - Revelación dada a Juan."
+    },
+    {
+      "id": 44,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Traición",
+      "pregunta": "¿Quién traicionó a Jesús?",
+      "opciones": {
+        "A": "Judas",
+        "B": "Pedro",
+        "C": "Tomás",
+        "D": "Santiago"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 26:14 - Judas lo entregó."
+    },
+    {
+      "id": 45,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Pago",
+      "pregunta": "¿Cuánto recibió Judas por traicionar a Jesús?",
+      "opciones": {
+        "A": "30 piezas de plata",
+        "B": "10 monedas",
+        "C": "50 denarios",
+        "D": "100 dracmas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 26:15 - Le pagaron 30 piezas de plata."
+    },
+    {
+      "id": 46,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Cruz",
+      "pregunta": "¿Quién llevó el madero de Jesús?",
+      "opciones": {
+        "A": "Simón de Cirene",
+        "B": "Juan",
+        "C": "Pedro",
+        "D": "María"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 27:32 - Obligaron a Simón a cargar el madero."
+    },
+    {
+      "id": 47,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Mateo - Transfiguración",
+      "pregunta": "¿En qué monte se transfiguró Jesús?",
+      "opciones": {
+        "A": "Monte alto",
+        "B": "Carmelo",
+        "C": "Sinaí",
+        "D": "Tabor"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Mateo 17:1 - Subió a un monte alto."
+    },
+    {
+      "id": 48,
+      "nivel": 8,
+      "dificultad": 3,
+      "tema": "Éxodo - Agua de la roca",
+      "pregunta": "¿De dónde sacó Moisés agua para el pueblo en Refidim?",
+      "opciones": {
+        "A": "De un pozo",
+        "B": "De una roca",
+        "C": "Del río Nilo",
+        "D": "De la lluvia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 17:6 dice que Jehová dijo: 'Yo estaré allí delante de ti sobre la roca en Horeb; y tú golpearás la roca, y saldrá agua de ella.'"
+    },
+    {
+      "id": 49,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Quién fue el principal artesano del Tabernáculo?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Aarón",
+        "C": "Bezalel",
+        "D": "Josué"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 35:30 dice que Jehová llamó a Bezalel hijo de Uri, hijo de Hur, de la tribu de Judá, y lo llenó con el espíritu de Dios."
+    },
+    {
+      "id": 50,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué objeto se colocaba en el Lugar Santísimo del Tabernáculo?",
+      "opciones": {
+        "A": "El altar de los sacrificios",
+        "B": "El altar del incienso",
+        "C": "El arca del pacto",
+        "D": "La mesa de los panes"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Éxodo 25:10-22 describe el arca del pacto que se colocaba en el Lugar Santísimo, cubierta por el propiciatorio."
+    },
+    {
+      "id": 51,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué cubría el arca del pacto en su parte superior?",
+      "opciones": {
+        "A": "Un velo de lino",
+        "B": "El propiciatorio (tapa de expiación) de oro",
+        "C": "Una cortina de púrpura",
+        "D": "Una manta de lana"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 25:17 describe el propiciatorio de oro puro que cubría el arca, con dos querubines en los extremos."
+    },
+    {
+      "id": 52,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - El Tabernáculo",
+      "pregunta": "¿Qué objeto del Tabernáculo tenía siete lámparas?",
+      "opciones": {
+        "A": "El altar del incienso",
+        "B": "El candelabro de oro",
+        "C": "La mesa de los panes de la proposición",
+        "D": "El arca del pacto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 25:31-37 describe el candelabro de oro puro con sus siete lámparas."
+    },
+    {
+      "id": 53,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - Sacerdocio",
+      "pregunta": "¿Quién fue el primer sumo sacerdote de Israel?",
+      "opciones": {
+        "A": "Moisés",
+        "B": "Aarón",
+        "C": "Eleazar",
+        "D": "Itamar"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 28:1 dice que toma a Aarón tu hermano y a sus hijos con él, para que me sirvan como sacerdotes."
+    },
+    {
+      "id": 54,
+      "nivel": 9,
+      "dificultad": 3,
+      "tema": "Éxodo - Sacerdocio",
+      "pregunta": "¿Qué vestidura especial llevaba el sumo sacerdote en su pecho?",
+      "opciones": {
+        "A": "Un cinturón de oro",
+        "B": "El pectoral del juicio",
+        "C": "Un manto de púrpura",
+        "D": "Un turbante de lino"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Éxodo 28:15-30 describe el pectoral del juicio con las doce piedras preciosas representando las doce tribus."
+    },
+    {
+      "id": 55,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Números - Balaam",
+      "pregunta": "¿Qué animal habló con Balaam?",
+      "opciones": {
+        "A": "Un caballo",
+        "B": "Una asna (burra)",
+        "C": "Un camello",
+        "D": "Un perro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Números 22:28 dice que Jehová abrió la boca de la asna, y ella dijo a Balaam: '¿Qué te he hecho?'"
+    },
+    {
+      "id": 56,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Números - Balaam",
+      "pregunta": "¿Qué bendijo Balaam en lugar de maldecir?",
+      "opciones": {
+        "A": "A los egipcios",
+        "B": "A los amalecitas",
+        "C": "A Israel",
+        "D": "A los filisteos"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Números 22-24 describe cómo Balaam, contratado por Balac para maldecir a Israel, terminó bendiciéndolo."
+    },
+    {
+      "id": 57,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio",
+      "pregunta": "¿Qué significa 'Deuteronomio'?",
+      "opciones": {
+        "A": "Segunda ley",
+        "B": "Primera ley",
+        "C": "Ley sagrada",
+        "D": "Palabra de Dios"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Deuteronomio significa 'segunda ley' en griego, porque contiene la repetición de la ley dada en el Sinaí."
+    },
+    {
+      "id": 58,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Moisés",
+      "pregunta": "¿Dónde murió Moisés?",
+      "opciones": {
+        "A": "En el monte Sinaí",
+        "B": "En Canaán",
+        "C": "En el monte Nebo",
+        "D": "En Egipto"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 34:1,5 dice que Moisés subió de las llanuras de Moab al monte Nebo, y murió allí."
+    },
+    {
+      "id": 59,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Moisés",
+      "pregunta": "¿Quién enterró a Moisés?",
+      "opciones": {
+        "A": "Josué y Eleazar",
+        "B": "Aarón y Miriam",
+        "C": "Dios mismo (Jehová)",
+        "D": "Los israelitas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 34:6 dice que él lo enterró en el valle, y nadie conoce su sepultura hasta hoy. Se entiende que fue Jehová."
+    },
+    {
+      "id": 60,
+      "nivel": 10,
+      "dificultad": 3,
+      "tema": "Deuteronomio - Josué",
+      "pregunta": "¿Quién sucedió a Moisés como líder de Israel?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Caleb",
+        "C": "Josué",
+        "D": "Eleazar"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Deuteronomio 31:23 dice que Jehová ordenó a Josué hijo de Nun que tomara el mando y fuera fuerte y valiente."
+    },
+    {
+      "id": 61,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Entrada a Canaán",
+      "pregunta": "¿Qué ciudad fue la primera conquistada por los israelitas en Canaán?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Jericó",
+        "C": "Hebrón",
+        "D": "Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6 describe la conquista de Jericó, la primera ciudad que cayeron ante los israelitas."
+    },
+    {
+      "id": 62,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Cuántos días los israelitas marcharon alrededor de Jericó?",
+      "opciones": {
+        "A": "3 días",
+        "B": "6 días marchando una vez, y 7 días marchando siete veces",
+        "C": "40 días",
+        "D": "1 día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6:3-4 dice que marcharían alrededor de la ciudad una vez durante seis días, y siete veces el séptimo día."
+    },
+    {
+      "id": 63,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Jericó",
+      "pregunta": "¿Qué debían hacer los israelitas después de marchar alrededor de Jericó?",
+      "opciones": {
+        "A": "Atacar con espadas",
+        "B": "Tocar las trompetas y gritar",
+        "C": "Encender fuego",
+        "D": "Escalar las murallas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 6:5 dice que al sonido prolongado de la bocina, todo el pueblo gritaría a gran voz y el muro de la ciudad caería."
+    },
+    {
+      "id": 64,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Rahab",
+      "pregunta": "¿Quién escondió a los espías israelitas en Jericó?",
+      "opciones": {
+        "A": "Un sacerdote",
+        "B": "Rahab, la prostituta",
+        "C": "El rey de Jericó",
+        "D": "Un mercader"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 2:1 dice que Josué envió dos espías desde Sitim, y fueron a casa de Rahab, una prostituta."
+    },
+    {
+      "id": 65,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Rahab",
+      "pregunta": "¿Qué señal puso Rahab en su casa para ser salvada?",
+      "opciones": {
+        "A": "Una antorcha",
+        "B": "Un cordón escarlata en la ventana",
+        "C": "Un paño blanco",
+        "D": "Un cordero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 2:18 dice que ella debería atar este cordón de hilo escarlata en la ventana por donde había descendido."
+    },
+    {
+      "id": 66,
+      "nivel": 11,
+      "dificultad": 3,
+      "tema": "Josué - Conquista",
+      "pregunta": "¿Qué sucedió con el sol durante la batalla de Josué contra los amorreos?",
+      "opciones": {
+        "A": "Se oscureció",
+        "B": "Se detuvo y la luna se paró",
+        "C": "Brilló con más intensidad",
+        "D": "Se convirtió en sangre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Josué 10:12-13 dice que Josué habló a Jehová y el sol se detuvo en medio del cielo y no se apresuró a ponerse como un día entero."
+    },
+    {
+      "id": 67,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Aod",
+      "pregunta": "¿De qué tribu era Aod, el juez que mató a Eglón?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Benjamín",
+        "C": "Efraín",
+        "D": "Dan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 3:15 dice que Jehová les levantó un salvador, Aod hijo de Gera, benjaminita, que era zurdo."
+    },
+    {
+      "id": 68,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Aod",
+      "pregunta": "¿Qué arma usó Aod para matar al rey Eglón?",
+      "opciones": {
+        "A": "Una espada",
+        "B": "Una lanza",
+        "C": "Un puñal de dos filos de un codo de largo",
+        "D": "Un arco"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 3:16 dice que Aod se hizo un puñal de dos filos, de un codo de largo, y lo ciñó debajo de sus vestidos."
+    },
+    {
+      "id": 69,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Quién era la única mujer juez de Israel?",
+      "opciones": {
+        "A": "Rut",
+        "B": "Ester",
+        "C": "Débora",
+        "D": "Ana"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 4:4 dice que Débora, mujer profetisa, esposa de Lapidot, juzgaba a Israel en aquel tiempo."
+    },
+    {
+      "id": 70,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora",
+      "pregunta": "¿Bajo qué árbol juzgaba Débora?",
+      "opciones": {
+        "A": "Roble",
+        "B": "Palmera de Débora",
+        "C": "Higuera",
+        "D": "Olivo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 4:5 dice que ella se sentaba bajo la palmera de Débora, entre Ramá y Betel, en la región montañosa de Efraín."
+    },
+    {
+      "id": 71,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora y Barac",
+      "pregunta": "¿A quién llamó Débora para liderar el ejército contra Sísara?",
+      "opciones": {
+        "A": "Gedeón",
+        "B": "Barac",
+        "C": "Samson",
+        "D": "Jefté"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 4:6 dice que Débora mandó llamar a Barac hijo de Abinoam, y le dijo que subiera al monte Tabor con diez mil hombres."
+    },
+    {
+      "id": 72,
+      "nivel": 12,
+      "dificultad": 3,
+      "tema": "Jueces - Débora y Barac",
+      "pregunta": "¿Quién mató a Sísara, el comandante del ejército cananeo?",
+      "opciones": {
+        "A": "Barac",
+        "B": "Débora",
+        "C": "Jael, la esposa de Heber",
+        "D": "Otoniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Jueces 4:17-21 describe cómo Jael invitó a Sísara a su tienda y luego le clavó una estaca de tienda en la sien."
+    },
+    {
+      "id": 73,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué llevaban los 300 hombres de Gedeón además de sus armas?",
+      "opciones": {
+        "A": "Antorchas ocultas en cántaros",
+        "B": "Escudos dorados",
+        "C": "Trompetas de oro",
+        "D": "Banderas"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jueces 7:16 dice que Gedeón dividió a los trescientos hombres en tres grupos, y puso en mano de cada uno una bocina, y un cántaro vacío con una antorcha dentro."
+    },
+    {
+      "id": 74,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué grito dieron los hombres de Gedeón durante la batalla?",
+      "opciones": {
+        "A": "¡Por Jehová y por Gedeón!",
+        "B": "¡La espada de Jehová y de Gedeón!",
+        "C": "¡Victoria para Israel!",
+        "D": "¡Muerte a los madianitas!"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 7:20 dice que las tres tropas tocaron las bocinas y quebraron los cántaros, y gritaron: '¡La espada de Jehová y de Gedeón!'"
+    },
+    {
+      "id": 75,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Gedeón",
+      "pregunta": "¿Qué hizo Gedeón con el botín de oro después de la victoria?",
+      "opciones": {
+        "A": "Lo repartió entre sus soldados",
+        "B": "Hizo un efod que se convirtió en trampa",
+        "C": "Lo dio al tabernáculo",
+        "D": "Lo enterró"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 8:27 dice que Gedeón hizo un efod y lo puso en su ciudad, Ofra; y todo Israel se prostituyó allí tras aquel efod."
+    },
+    {
+      "id": 76,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Quién era Jefté antes de convertirse en juez?",
+      "opciones": {
+        "A": "Un sacerdote",
+        "B": "Un hijo de una prostituta expulsado por sus hermanos",
+        "C": "Un rey",
+        "D": "Un profeta"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:1-2 dice que Jefté era un guerrero valiente, hijo de una prostituta; pero Gilead tuvo otros hijos con su esposa, y estos expulsaron a Jefté."
+    },
+    {
+      "id": 77,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Contra qué pueblo luchó Jefté?",
+      "opciones": {
+        "A": "Los filisteos",
+        "B": "Los amonitas",
+        "C": "Los cananeos",
+        "D": "Los sirios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:4-5 dice que después de un tiempo, los hijos de Amón hicieron guerra a Israel, y los ancianos de Gilead fueron a buscar a Jefté."
+    },
+    {
+      "id": 78,
+      "nivel": 13,
+      "dificultad": 4,
+      "tema": "Jueces - Jefté",
+      "pregunta": "¿Qué promesa hizo Jefté a Jehová antes de la batalla?",
+      "opciones": {
+        "A": "Dedicarle un templo",
+        "B": "Ofrecer como sacrificio lo que saliera primero de su casa al regresar",
+        "C": "Ayunar 40 días",
+        "D": "Dar la mitad del botín"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 11:30-31 dice que Jefté hizo un voto a Jehová de ofrecer como sacrificio quienquiera que saliera primero de su casa a recibirlo."
+    },
+    {
+      "id": 79,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cómo se llamaba la filisteña que traicionó a Sansón?",
+      "opciones": {
+        "A": "Jezabel",
+        "B": "Dalila",
+        "C": "Atenais",
+        "D": "Betsabé"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:4 dice que después de aquello, Sansón se enamoró de una mujer en el valle de Sorek, cuyo nombre era Dalila."
+    },
+    {
+      "id": 80,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cuál era el secreto de la fuerza de Sansón?",
+      "opciones": {
+        "A": "Sus amuletos",
+        "B": "Su cabello, símbolo de su nazareato",
+        "C": "Una armadura especial",
+        "D": "Sus ejercicios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:17 dice que si rapaban su cabeza, su fuerza se apartaría de él, porque era nazareo de Dios desde el vientre de su madre."
+    },
+    {
+      "id": 81,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Qué hicieron los filisteos a Sansón después de cortarle el cabello?",
+      "opciones": {
+        "A": "Lo mataron",
+        "B": "Le sacaron los ojos y lo pusieron a trabajar en la cárcel",
+        "C": "Lo vendieron como esclavo",
+        "D": "Lo dejaron libre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:21 dice que los filisteos lo prendieron, le sacaron los ojos, y lo llevaron a Gaza, donde lo ataron con cadenas de bronce y lo pusieron a trabajar en la cárcel."
+    },
+    {
+      "id": 82,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Sansón",
+      "pregunta": "¿Cómo murió Sansón?",
+      "opciones": {
+        "A": "De viejo",
+        "B": "Derribó el templo de Dagón sobre los filisteos y sobre sí mismo",
+        "C": "En batalla",
+        "D": "Enfermo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jueces 16:29-30 describe cómo Sansón empujó las columnas del templo de Dagón, derrumbándolo y muriendo junto con miles de filisteos."
+    },
+    {
+      "id": 83,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿De qué país era Rut antes de convertirse en israelita?",
+      "opciones": {
+        "A": "Egipto",
+        "B": "Moab",
+        "C": "Filistea",
+        "D": "Asiria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 1:4 dice que los hijos de Noemí tomaron para sí mujeres moabitas; el nombre de una era Orfa, y el nombre de la otra, Rut."
+    },
+    {
+      "id": 84,
+      "nivel": 14,
+      "dificultad": 4,
+      "tema": "Jueces - Rut",
+      "pregunta": "¿Qué famoso dicho dijo Rut a su suegra Noemí?",
+      "opciones": {
+        "A": "'El Señor te bendiga'",
+        "B": "'A dondequiera que vayas, iré yo'",
+        "C": "'No temas'",
+        "D": "'Bendita eres entre las mujeres'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Rut 1:16 dice el famoso discurso de Rut: 'A dondequiera que vayas, iré yo; y dondequiera que vivas, viviré yo.'"
+    },
+    {
+      "id": 85,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel nacimiento",
+      "pregunta": "¿Dónde fue criado Samuel desde niño?",
+      "opciones": {
+        "A": "En su casa con sus padres",
+        "B": "En el tabernáculo de Silo",
+        "C": "En el templo de Jerusalén",
+        "D": "En Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 1:24-28 dice que Ana llevó al niño Samuel al tabernáculo de Silo para servir a Jehová toda su vida."
+    },
+    {
+      "id": 86,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Quién era el sumo sacerdote cuando Samuel era niño?",
+      "opciones": {
+        "A": "Aarón",
+        "B": "Eleazar",
+        "C": "Helí",
+        "D": "Sadog"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 1:3 dice que Elcana subía a adorar y a sacrificar a Jehová de los ejércitos en Silo, donde estaban Helí y sus hijos como sacerdotes."
+    },
+    {
+      "id": 87,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Qué dijo Dios que haría con la casa de Helí?",
+      "opciones": {
+        "A": "La bendeciría",
+        "B": "La juzgaría por la maldad de sus hijos",
+        "C": "La haría reyes",
+        "D": "La haría sacerdotes para siempre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 3:12-13 dice que Jehová ejecutaría contra Helí todo lo que había hablado contra su casa, porque sus hijos habían hecho maldad."
+    },
+    {
+      "id": 88,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Samuel",
+      "pregunta": "¿Qué papel desempeñaba Samuel en Israel?",
+      "opciones": {
+        "A": "Solo profeta",
+        "B": "Solo sacerdote",
+        "C": "Juez, profeta y sacerdote",
+        "D": "Solo rey"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 7:15-17 dice que Samuel juzgaba a Israel todos los días de su vida, y también actuaba como profeta y sacerdote."
+    },
+    {
+      "id": 89,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Quiénes capturaron el arca del pacto en batalla?",
+      "opciones": {
+        "A": "Los moabitas",
+        "B": "Los filisteos",
+        "C": "Los amonitas",
+        "D": "Los sirios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 4:11 dice que el arca de Dios fue capturada, y murieron los dos hijos de Helí, Ofni y Finees."
+    },
+    {
+      "id": 90,
+      "nivel": 15,
+      "dificultad": 4,
+      "tema": "1 Samuel - Arca perdida",
+      "pregunta": "¿Qué diosa filistea se derrumbó cuando pusieron el arca junto a ella?",
+      "opciones": {
+        "A": "Asera",
+        "B": "Astarté",
+        "C": "Dagón",
+        "D": "Anat"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 5:2-4 describe cómo el arca fue puesta junto a Dagón, y a la mañana Dagón había caído rostro en tierra ante el arca."
+    },
+    {
+      "id": 91,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Quién ungió a Saúl como rey de Israel?",
+      "opciones": {
+        "A": "El sumo sacerdote",
+        "B": "Samuel",
+        "C": "David",
+        "D": "Jonathan"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 10:1 dice que Samuel tomó el frasco de aceite y lo derramó sobre la cabeza de Saúl, y lo besó."
+    },
+    {
+      "id": 92,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Cuánto medía Saúl, el primer rey de Israel?",
+      "opciones": {
+        "A": "De estatura mediana",
+        "B": "De hombros para arriba más alto que cualquiera del pueblo",
+        "C": "Enano",
+        "D": "No se menciona"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 9:2 dice que no había entre el pueblo nadie más bien parecido que él; desde los hombros para arriba sobrepasaba a cualquiera del pueblo."
+    },
+    {
+      "id": 93,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿Qué pecado cometió Saúl que le costó el reino?",
+      "opciones": {
+        "A": "Adorar ídolos",
+        "B": "Ofrecer sacrificio cuando debía esperar a Samuel",
+        "C": "Matar a un inocente",
+        "D": "Robar del templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 13:8-14 describe cómo Saúl ofreció el holocausto impacientemente, sin esperar a Samuel, pecando contra Dios."
+    },
+    {
+      "id": 94,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - Saul",
+      "pregunta": "¿A quién no quiso matar Saúl cuando Dios lo ordenó?",
+      "opciones": {
+        "A": "Los filisteos",
+        "B": "Agag, rey de Amalec",
+        "C": "Los amonitas",
+        "D": "Los moabitas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 15:9 dice que Saúl y el pueblo perdonaron a Agag, y a lo mejor de las ovejas y del ganado."
+    },
+    {
+      "id": 95,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿De qué ciudad era David?",
+      "opciones": {
+        "A": "Jerusalén",
+        "B": "Belén",
+        "C": "Hebrón",
+        "D": "Samaria"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 16:1 dice que Jehová dijo a Samuel: 'Llena tu cuerno de aceite y vete; te envío a Isaí el belenita.'"
+    },
+    {
+      "id": 96,
+      "nivel": 16,
+      "dificultad": 3,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Cuántos hijos tenía Isaí, el padre de David?",
+      "opciones": {
+        "A": "5",
+        "B": "7",
+        "C": "8",
+        "D": "12"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 16:10-11 dice que pasaron siete hijos ante Samuel, pero David era el octavo, el menor."
+    },
+    {
+      "id": 97,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David y Saúl",
+      "pregunta": "¿Cuántas veces David tuvo la oportunidad de matar a Saúl y no lo hizo?",
+      "opciones": {
+        "A": "Una vez",
+        "B": "Dos veces",
+        "C": "Tres veces",
+        "D": "Nunca tuvo la oportunidad"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 24 y 26 describen dos ocasiones en que David pudo matar a Saúl pero se abstuvo de hacerlo."
+    },
+    {
+      "id": 98,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Con quién se casó David después de matar a Goliat?",
+      "opciones": {
+        "A": "Abigail",
+        "B": "Betsabé",
+        "C": "Mical, hija de Saúl",
+        "D": "Ana"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Samuel 18:27 dice que David le fue dada Mical, hija de Saúl, por esposa, como recompensa por matar a cien filisteos."
+    },
+    {
+      "id": 99,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Quién era el mejor amigo de David?",
+      "opciones": {
+        "A": "Joab",
+        "B": "Jonathan, hijo de Saúl",
+        "C": "Abner",
+        "D": "Siba"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 18:1 dice que el alma de Jonathan quedó ligada al alma de David, y Jonathan lo amó como a sí mismo."
+    },
+    {
+      "id": 100,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "1 Samuel - David",
+      "pregunta": "¿Cómo murieron Saúl y sus hijos?",
+      "opciones": {
+        "A": "De enfermedad",
+        "B": "En batalla contra los filisteos en el monte Gilboa",
+        "C": "Ejecutados por David",
+        "D": "Ahogados"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Samuel 31:1-6 describe la muerte de Saúl y sus hijos en batalla contra los filisteos en el monte Gilboa."
+    },
+    {
+      "id": 101,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David rey",
+      "pregunta": "¿Sobre qué tribu reinó David primero?",
+      "opciones": {
+        "A": "Judá",
+        "B": "Efraín",
+        "C": "Benjamín",
+        "D": "Todo Israel"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "2 Samuel 2:4 dice que los hombres de Judá vinieron y allí ungieron a David por rey sobre la casa de Judá."
+    },
+    {
+      "id": 102,
+      "nivel": 17,
+      "dificultad": 4,
+      "tema": "2 Samuel - David rey",
+      "pregunta": "¿Cuántos años reinó David sobre todo Israel y Judá?",
+      "opciones": {
+        "A": "20 años",
+        "B": "33 años",
+        "C": "40 años",
+        "D": "50 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 5:4-5 dice que David tenía treinta años cuando comenzó a reinar, y reinó cuarenta años."
+    },
+    {
+      "id": 103,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Qué profeta confrontó a David por su pecado?",
+      "opciones": {
+        "A": "Samuel",
+        "B": "Gad",
+        "C": "Natan",
+        "D": "Aías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 12:1 dice que Jehová envió a Natan a David; y viniendo a él, le dijo: 'Había dos hombres en una ciudad.'"
+    },
+    {
+      "id": 104,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - David pecado",
+      "pregunta": "¿Qué consecuencia tuvo el pecado de David según Natan?",
+      "opciones": {
+        "A": "Perdería el reino",
+        "B": "La espada no se apartaría de su casa",
+        "C": "Sería exiliado",
+        "D": "Perdería todas sus riquezas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 12:10 dice que ahora no se apartará jamás de tu casa la espada, por cuanto me menospreciaste y tomaste la mujer de Urías."
+    },
+    {
+      "id": 105,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - Absalón",
+      "pregunta": "¿Quién se rebeló contra David y tomó el reino?",
+      "opciones": {
+        "A": "Adonías",
+        "B": "Absalón",
+        "C": "Amnón",
+        "D": "Salomón"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Samuel 15 describe la rebelión de Absalón contra su padre David, tomando el reino de Israel."
+    },
+    {
+      "id": 106,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "2 Samuel - Absalón",
+      "pregunta": "¿Qué le sucedió a Absalón durante la batalla contra David?",
+      "opciones": {
+        "A": "Fue capturado",
+        "B": "Se escapó",
+        "C": "Su cabeza quedó atrapada en un árbol y lo mataron",
+        "D": "Se rindió"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Samuel 18:9-15 describe cómo la cabeza de Absalón quedó enredada en una encina, y Joab lo mató con tres lanzadas."
+    },
+    {
+      "id": 107,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Quién sucedió a David como rey?",
+      "opciones": {
+        "A": "Adonías",
+        "B": "Absalón",
+        "C": "Salomón",
+        "D": "Roboam"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 2:12 dice que Salomón se sentó en el trono de David su padre, y su reino fue establecido firmemente."
+    },
+    {
+      "id": 108,
+      "nivel": 18,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Qué pidió Salomón a Dios cuando se le ofreció cualquier cosa?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "Larga vida",
+        "C": "Sabiduría para juzgar al pueblo",
+        "D": "Victoria en batallas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 3:9 dice que Salomón pidió: 'Da, pues, a tu siervo corazón entendido para juzgar a tu pueblo, para discernir entre lo bueno y lo malo.'"
+    },
+    {
+      "id": 109,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Qué rey de Tiro ayudó a Salomón con materiales para el templo?",
+      "opciones": {
+        "A": "Abimelec",
+        "B": "Hiram",
+        "C": "Ben-adad",
+        "D": "Acab"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 5:1 dice que Hiram rey de Tiro envió sus siervos a Salomón, porque había oído que lo habían ungido por rey en lugar de su padre."
+    },
+    {
+      "id": 110,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Templo",
+      "pregunta": "¿Qué había en el Lugar Santísimo del templo de Salomón?",
+      "opciones": {
+        "A": "El altar del incienso",
+        "B": "El arca del pacto con los querubines",
+        "C": "La mesa de los panes",
+        "D": "El candelabro de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 8:6 dice que metieron el arca del pacto en el Lugar Santísimo de la casa, en el santuario interior."
+    },
+    {
+      "id": 111,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Reina de Saba",
+      "pregunta": "¿Qué reina vino a visitar a Salomón para probarlo con preguntas difíciles?",
+      "opciones": {
+        "A": "La reina de Egipto",
+        "B": "La reina de Saba",
+        "C": "La reina de Persia",
+        "D": "La reina de Tiro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 10:1 dice que la reina de Saba, al oír la fama de Salomón en relación con el nombre de Jehová, vino a probarlo con preguntas difíciles."
+    },
+    {
+      "id": 112,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - Salomón",
+      "pregunta": "¿Cuántas esposas tuvo Salomón según 1 Reyes?",
+      "opciones": {
+        "A": "100",
+        "B": "300",
+        "C": "700 esposas y 300 concubinas",
+        "D": "1000"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "1 Reyes 11:3 dice que tuvo setecientas esposas, princesas, y trescientas concubinas."
+    },
+    {
+      "id": 113,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - División",
+      "pregunta": "¿Quién sucedió a Salomón como rey?",
+      "opciones": {
+        "A": "Jeroboam",
+        "B": "Roboam",
+        "C": "David",
+        "D": "Abías"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 11:43 dice que Roboam su hijo reinó en su lugar."
+    },
+    {
+      "id": 114,
+      "nivel": 19,
+      "dificultad": 4,
+      "tema": "1 Reyes - División",
+      "pregunta": "¿En cuántos reinos se dividió Israel después de Salomón?",
+      "opciones": {
+        "A": "2",
+        "B": "3",
+        "C": "12",
+        "D": "10"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "1 Reyes 12:16-20 describe la división del reino en Israel (diez tribus al norte) y Judá (dos tribus al sur)."
+    },
+    {
+      "id": 115,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Qué rey y reina adoraban a Baal en el tiempo de Elías?",
+      "opciones": {
+        "A": "Salomón y sus esposas",
+        "B": "Acab y Jezabel",
+        "C": "Jeroboam y su esposa",
+        "D": "Roboam y su madre"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 16:31-32 dice que Acab tomó por esposa a Jezabel, hija de Etbaal rey de los sidonios, y fue y sirvió a Baal."
+    },
+    {
+      "id": 116,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Cuánto tiempo no llovió por la oración de Elías?",
+      "opciones": {
+        "A": "1 año",
+        "B": "3 años y 6 meses",
+        "C": "7 años",
+        "D": "40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 17:1 y Santiago 5:17 mencionan que no llovió por tres años y seis meses."
+    },
+    {
+      "id": 117,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "1 Reyes - Elías",
+      "pregunta": "¿Quién alimentó a Elías durante la sequía?",
+      "opciones": {
+        "A": "Un rey",
+        "B": "Una viuda de Sarepta (Sarafat)",
+        "C": "Sus discípulos",
+        "D": "Cuervos"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "1 Reyes 17:9-16 describe cómo una viuda de Sarepta alimentó a Elías con harina y aceite milagrosamente multiplicados."
+    },
+    {
+      "id": 118,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Eliseo",
+      "pregunta": "¿Quién sucedió a Elías como profeta?",
+      "opciones": {
+        "A": "Natán",
+        "B": "Isaías",
+        "C": "Eliseo",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 2:9-15 describe la transferencia del espíritu de Elías a Eliseo."
+    },
+    {
+      "id": 119,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Elías",
+      "pregunta": "¿Cómo fue llevado Elías al cielo?",
+      "opciones": {
+        "A": "Murió de viejo",
+        "B": "En un torbellino en un carro de fuego",
+        "C": "Caminando",
+        "D": "Se durmió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Reyes 2:11 dice que un carro de fuego con caballos de fuego se interpuso entre ambos, y Elías subió al cielo en un torbellino."
+    },
+    {
+      "id": 120,
+      "nivel": 20,
+      "dificultad": 4,
+      "tema": "2 Reyes - Naamán",
+      "pregunta": "¿Qué sirio fue sanado de lepra por Eliseo?",
+      "opciones": {
+        "A": "Ben-adad",
+        "B": "Hazael",
+        "C": "Naamán",
+        "D": "Jehú"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 5:1-14 describe la sanación de Naamán, comandante del ejército sirio, quien se sumergió siete veces en el Jordán."
+    },
+    {
+      "id": 121,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Llamamiento",
+      "pregunta": "¿En qué año del rey Uzías murió vio Isaías su visión del trono?",
+      "opciones": {
+        "A": "El primer año",
+        "B": "El año en que murió el rey Uzías",
+        "C": "El décimo año",
+        "D": "El último año"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:1 dice: 'En el año en que murió el rey Uzías, yo vi sentado al Señor sobre un trono alto y sublime.'"
+    },
+    {
+      "id": 122,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Visión",
+      "pregunta": "¿Qué serafines vio Isaías junto al trono de Dios?",
+      "opciones": {
+        "A": "Ángeles con espadas",
+        "B": "Seres con seis alas",
+        "C": "Querubines con cuatro rostros",
+        "D": "Estatuas de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:2 describe a los serafines con seis alas: con dos cubrían su rostro, con dos cubrían sus pies, y con dos volaban."
+    },
+    {
+      "id": 123,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Visión",
+      "pregunta": "¿Qué cantaban los serafines?",
+      "opciones": {
+        "A": "¡Aleluya!",
+        "B": "¡Santo, santo, santo es Jehová de los ejércitos!",
+        "C": "¡Bendito el que viene en nombre de Jehová!",
+        "D": "¡Gloria a Dios en las alturas!"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 6:3 dice que uno llamaba al otro: '¡Santo, santo, santo es Jehová de los ejércitos; toda la tierra está llena de su gloria!'"
+    },
+    {
+      "id": 124,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Llamamiento",
+      "pregunta": "¿Con qué serafín tocó Isaías sus labios?",
+      "opciones": {
+        "A": "Un carbón encendido",
+        "B": "Una espada",
+        "C": "Agua bendita",
+        "D": "Un paño"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Isaías 6:6-7 dice que uno de los serafines voló hacia mí con un carbón encendido en su mano, que había tomado del altar con unas tenazas, y con él tocó mi boca."
+    },
+    {
+      "id": 125,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué profecía famosa sobre el Mesías está en Isaías 7:14?",
+      "opciones": {
+        "A": "Nacerá en Belén",
+        "B": "Una virgen concebirá y dará a luz un hijo",
+        "C": "Será crucificado",
+        "D": "Resucitará al tercer día"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Isaías 7:14 dice: 'Por tanto, el Señor mismo les dará una señal: ¡Miren! La virgen concebirá y dará a luz un hijo, y le pondrá por nombre Emmanuel.'"
+    },
+    {
+      "id": 126,
+      "nivel": 21,
+      "dificultad": 5,
+      "tema": "Isaías - Profecía",
+      "pregunta": "¿Qué libro profético es conocido como 'el evangelio del Antiguo Testamento'?",
+      "opciones": {
+        "A": "Jeremías",
+        "B": "Ezequiel",
+        "C": "Isaías",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Isaías contiene muchas profecías mesiánicas detalladas sobre Jesús, incluyendo su nacimiento, sufrimiento y reinado."
+    },
+    {
+      "id": 127,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Llamamiento",
+      "pregunta": "¿Cuál era la excusa de Jeremías cuando Dios lo llamó?",
+      "opciones": {
+        "A": "'Soy demasiado viejo'",
+        "B": "'Soy un muchacho; no sé hablar'",
+        "C": "'Soy pobre'",
+        "D": "'Tengo familia que cuidar'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 1:6 dice que Jeremías respondió: '¡Ay, Señor Jehová! He aquí, no sé hablar, porque soy un muchacho.'"
+    },
+    {
+      "id": 128,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Llamamiento",
+      "pregunta": "¿Qué vio Jeremías en su primera visión?",
+      "opciones": {
+        "A": "Un león",
+        "B": "Una vara de almendro vigilante",
+        "C": "Un fuego",
+        "D": "Un templo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 1:11-12 dice que vio una vara de almendro vigilante; el árbol de almendro florece temprano, simbolizando que Dios velaba por su palabra."
+    },
+    {
+      "id": 129,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Profecía",
+      "pregunta": "¿Qué símbolo usó Jeremías para mostrar la inevitable caída de Judá?",
+      "opciones": {
+        "A": "Un árbol cortado",
+        "B": "Una vasija de barro rota",
+        "C": "Una casa en llamas",
+        "D": "Un río seco"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 19 describe cómo Jeremías compró una vasija de barro, la quebró delante de los ancianos, simbolizando que Dios quebraría a Judá."
+    },
+    {
+      "id": 130,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Profecía",
+      "pregunta": "¿Qué profecía de Jeremías se cumplió en la caída de Jerusalén?",
+      "opciones": {
+        "A": "70 años de desolación",
+        "B": "40 años de paz",
+        "C": "100 años de guerra",
+        "D": "1 año de abundancia"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Jeremías 25:11 y 29:10 profetizó que las naciones servirían al rey de Babilonia setenta años."
+    },
+    {
+      "id": 131,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Símbolos",
+      "pregunta": "¿Qué compró Jeremías como símbolo de la futura restauración de Israel?",
+      "opciones": {
+        "A": "Una casa",
+        "B": "Un campo en Anatot",
+        "C": "Un templo",
+        "D": "Una vasija de oro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 32:6-15 describe cómo Jeremías compró un campo de su primo Hanameel en Anatot, como señal de que volverían a poseer la tierra."
+    },
+    {
+      "id": 132,
+      "nivel": 22,
+      "dificultad": 5,
+      "tema": "Jeremías - Lamentaciones",
+      "pregunta": "¿Qué libro escribió Jeremías después de la caída de Jerusalén?",
+      "opciones": {
+        "A": "Eclesiastés",
+        "B": "Lamentaciones",
+        "C": "Proverbios",
+        "D": "Cantares"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Lamentaciones, atribuido tradicionalmente a Jeremías, lamenta la destrucción de Jerusalén en 607 a.E.C."
+    },
+    {
+      "id": 133,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Ezequiel - Símbolos",
+      "pregunta": "¿Qué hizo Ezequiel con su cabello y barba como símbolo del destino de Judá?",
+      "opciones": {
+        "A": "Se los pintó",
+        "B": "Se los rapó con navaja y dividió en tres partes",
+        "C": "Se los trenzó",
+        "D": "Se los cubrió"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 5:1-4 describe cómo tomó una navaja afilada, pasó por su cabeza y barba, dividió el pelo en tres partes, quemó una parte, golpeó otra con espada, y esparció la tercera al viento."
+    },
+    {
+      "id": 134,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Ezequiel - Profecía",
+      "pregunta": "¿Qué famosa profecía mesiánica está en Ezequiel 37?",
+      "opciones": {
+        "A": "El nacimiento del Mesías",
+        "B": "El valle de huesos secos que revive",
+        "C": "La crucifixión",
+        "D": "La segunda venida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ezequiel 37 describe el valle de huesos secos que reciben carne y espíritu, simbolizando la resurrección de Israel y también la esperanza de resurrección."
+    },
+    {
+      "id": 135,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Historia",
+      "pregunta": "¿En qué ciudad fue llevado cautivo Daniel?",
+      "opciones": {
+        "A": "Asiria",
+        "B": "Babilonia",
+        "C": "Egipto",
+        "D": "Persia"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 1:1-6 dice que Nabucodonosor rey de Babilonia vino contra Jerusalén, y Daniel fue llevado cautivo a Babilonia."
+    },
+    {
+      "id": 136,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Historia",
+      "pregunta": "¿Qué nombres babilónicos recibieron Daniel y sus tres compañeros?",
+      "opciones": {
+        "A": "Sadrac, Mesac y Abednego",
+        "B": "Beltsasar, Sadrac, Mesac y Abednego",
+        "C": "Daniel, Ananías, Misael y Azarías",
+        "D": "Nabucodonosor, Belsasar, Darío y Ciro"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 1:7 dice que a Daniel le pusieron por nombre Beltsasar; y a Ananías, Sadrac; a Misael, Mesac; y a Azarías, Abednego."
+    },
+    {
+      "id": 137,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Interpretación",
+      "pregunta": "¿Qué había comido Daniel durante tres años para mantenerse puro?",
+      "opciones": {
+        "A": "Solo carne",
+        "B": "Solo pan y agua",
+        "C": "Verduras y agua",
+        "D": "Nada"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Daniel 1:12 dice que Daniel pidió probar a sus siervos diez días dándoles a comer legumbres y a beber agua."
+    },
+    {
+      "id": 138,
+      "nivel": 23,
+      "dificultad": 5,
+      "tema": "Daniel - Sueños",
+      "pregunta": "¿Qué sueño tuvo Nabucodonosor que solo Daniel pudo interpretar?",
+      "opciones": {
+        "A": "Un árbol grande que fue cortado",
+        "B": "Una estatua con cabeza de oro, pecho de plata, vientre de bronce, piernas de hierro y pies de hierro y barro",
+        "C": "Un río que se secaba",
+        "D": "Un templo en llamas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 2:31-45 describe la estatua con cabeza de oro (Babilonia), pecho de plata (Medo-Persia), vientre de bronce (Grecia), piernas de hierro (Roma) y pies de hierro y barro."
+    },
+    {
+      "id": 139,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Daniel - Profecía",
+      "pregunta": "¿Qué animales vio Daniel en su visión de las cuatro bestias?",
+      "opciones": {
+        "A": "Un león, un oso, un leopardo y una bestia terrible",
+        "B": "Una águila, un toro, un león y un hombre",
+        "C": "Solo un dragón",
+        "D": "Cuatro caballos"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Daniel 7 describe cuatro bestias: león (Babilonia), oso (Medo-Persia), leopardo (Grecia) y una bestia terrible (Roma)."
+    },
+    {
+      "id": 140,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Oseas - Profecía",
+      "pregunta": "¿Qué inusual mandato le dio Dios a Oseas?",
+      "opciones": {
+        "A": "Casarse con una mujer de mala reputación",
+        "B": "Vestirse de luto por 40 años",
+        "C": "No hablar por un año",
+        "D": "Comer pan hecho con estiércol"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Oseas 1:2 dice que Jehová dijo a Oseas: 'Ve, toma para ti una mujer de mala reputación y ten hijos de mala reputación; porque la tierra se prostituye apartándose de Jehová.'"
+    },
+    {
+      "id": 141,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Oseas - Profecía",
+      "pregunta": "¿Cuáles fueron los nombres simbólicos de los hijos de Oseas?",
+      "opciones": {
+        "A": "Jezreel, 'No compasión', 'No mi pueblo'",
+        "B": "Emanuel, 'Dios con nosotros'",
+        "C": "Israel, Judá, Benjamín",
+        "D": "Adán, Set, Enoc"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Oseas 1:4-9 describe los tres hijos con nombres simbólicos: Jezreel (Dios siembra), Lo-ruhama (no compasión), y Lo-ammi (no mi pueblo)."
+    },
+    {
+      "id": 142,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Joel - Profecía",
+      "pregunta": "¿Qué plaga describió Joel que devastó la tierra?",
+      "opciones": {
+        "A": "Langostas",
+        "B": "Peste",
+        "C": "Terremoto",
+        "D": "Inundación"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Joel 1:4 describe la invasión de langostas: 'Lo que dejó la oruga se lo comió la langosta; y lo que dejó la langosta se lo comió el saltón; y lo que dejó el saltón se lo comió el revoltonero.'"
+    },
+    {
+      "id": 143,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Joel - Profecía",
+      "pregunta": "¿Qué promesa del espíritu profetizó Joel que se cumplió en Pentecostés?",
+      "opciones": {
+        "A": "'Derramaré mi espíritu sobre toda carne'",
+        "B": "'Haré llover fuego del cielo'",
+        "C": "'Abriré los mares'",
+        "D": "'Haré callar a los profetas'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Joel 2:28 dice: 'Y después de esto derramaré mi espíritu sobre toda carne, y profetizarán vuestros hijos y vuestras hijas.' Hechos 2:16-17 cita esta profecía."
+    },
+    {
+      "id": 144,
+      "nivel": 24,
+      "dificultad": 5,
+      "tema": "Amós - Profecía",
+      "pregunta": "¿Cuál era la profesión de Amós antes de ser profeta?",
+      "opciones": {
+        "A": "Sacerdote",
+        "B": "Pastor de ovejas y cultivador de higos",
+        "C": "Rey",
+        "D": "Carpintero"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Amós 1:1 y 7:14 dice que Amós era pastor de Tecoa, y cultivaba higos silvestres."
+    },
+    {
+      "id": 145,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Miqueas - Profecía",
+      "pregunta": "¿Qué profecía de Miqueas se cumplió con el nacimiento de Jesús?",
+      "opciones": {
+        "A": "Que nacería en Nazaret",
+        "B": "Que nacería en Belén de Efrata",
+        "C": "Que nacería en Jerusalén",
+        "D": "Que nacería en Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Miqueas 5:2 dice: 'Pero tú, Belén Efrata, aunque eres pequeña entre las familias de Judá, de ti me saldrá el que ha de ser gobernante en Israel.' Mateo 2:5-6 cita esto."
+    },
+    {
+      "id": 146,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Miqueas - Profecía",
+      "pregunta": "¿Qué pide Dios según Miqueas 6:8?",
+      "opciones": {
+        "A": "Sacrificios de miles de carneros",
+        "B": "Hacer justicia, amar la misericordia, andar humildemente con Dios",
+        "C": "Construir templos",
+        "D": "Ayunar 40 días"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Miqueas 6:8 dice: 'Oh hombre, él te ha declarado lo que es bueno, y qué pide Jehová de ti: solamente hacer justicia, y amar misericordia, y humillarte ante tu Dios.'"
+    },
+    {
+      "id": 147,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Habacuc - Profecía",
+      "pregunta": "¿Qué famosa frase dice Habacuc 2:4 sobre la justicia?",
+      "opciones": {
+        "A": "'El justo vivirá por su fe'",
+        "B": "'El justo nunca pecará'",
+        "C": "'El justo será rico'",
+        "D": "'El justo no sufrirá'"
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Habacuc 2:4 dice: 'He aquí que aquel cuya alma no es recta, se enorgullece; pero el justo vivirá por su fe.' Citado en Romanos 1:17 y Gálatas 3:11."
+    },
+    {
+      "id": 148,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Sofonías - Profecía",
+      "pregunta": "¿Qué día describe Sofonías como 'día de la indignación de Jehová'?",
+      "opciones": {
+        "A": "El sábado",
+        "B": "El día de Jehová",
+        "C": "La Pascua",
+        "D": "Pentecostés"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Sofonías 1:14-15 describe el 'día grande de Jehová' cercano, día de la indignación, día de angustia y aflicción."
+    },
+    {
+      "id": 149,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Hageo - Profecía",
+      "pregunta": "¿Qué exhortó Hageo al pueblo a hacer?",
+      "opciones": {
+        "A": "Ir a la guerra",
+        "B": "Edificar la casa de Jehová (el templo)",
+        "C": "Dejar de trabajar",
+        "D": "Huir a Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Hageo 1:2-8 exhorta al pueblo que dice 'No es tiempo de venir, el tiempo de la casa de Jehová', a edificar la casa del Señor."
+    },
+    {
+      "id": 150,
+      "nivel": 25,
+      "dificultad": 5,
+      "tema": "Zacarías - Profecía",
+      "pregunta": "¿Qué visión tuvo Zacarías de un hombre entre dos olivos?",
+      "opciones": {
+        "A": "Josué el sumo sacerdote",
+        "B": "El sumo sacerdote Josué, y más tarde se aplica al Ungido (Mesías)",
+        "C": "Zorobabel",
+        "D": "Esdras"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Zacarías 3 y 4 describen visiones del sumo sacerdote Josué y de un candelabro de oro con dos olivos a los lados, simbolizando a los ungidos (Zorobabel y Josué)."
+    },
+    {
+      "id": 151,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿En qué año del rey Sedequías fue destruido Jerusalén?",
+      "opciones": {
+        "A": "607 a.E.C.",
+        "B": "587 a.E.C.",
+        "C": "537 a.E.C.",
+        "D": "537 a.E.C."
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "2 Reyes 25:1-10 describe la destrucción de Jerusalén en el año 607 a.E.C. (interpretación basada en las publicaciones de los testigos de Jehová)."
+    },
+    {
+      "id": 152,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿Quién destruyó el templo de Jerusalén?",
+      "opciones": {
+        "A": "Los asirios",
+        "B": "Los egipcios",
+        "C": "Nabucodonosor, rey de Babilonia",
+        "D": "Los persas"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "2 Reyes 25:9 dice que Nabuzaradán, capitán de la guardia, quemó la casa de Jehová, la casa del rey y todas las casas de Jerusalén."
+    },
+    {
+      "id": 153,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "2 Reyes - Exilio",
+      "pregunta": "¿Qué pasó con Sedequías, el último rey de Judá?",
+      "opciones": {
+        "A": "Fue asesinado",
+        "B": "Le sacaron los ojos y lo llevaron a Babilonia",
+        "C": "Escapó a Egipto",
+        "D": "Se suicidó"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "2 Reyes 25:7 dice que le sacaron los ojos a Sedequías, y lo ataron con cadenas de bronce, y lo llevaron a Babilonia."
+    },
+    {
+      "id": 154,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Jeremías - Exilio",
+      "pregunta": "¿Qué hizo Jeremías cuando los judíos fueron llevados a Babilonia?",
+      "opciones": {
+        "A": "Fue con ellos voluntariamente",
+        "B": "Se quedó en Jerusalén con Gedalías",
+        "C": "Huyó a Egipto",
+        "D": "Fue asesinado"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 39:14 y 40:6 dice que Nabucodonosor dejó a Jeremías con Gedalías, hijo de Ahicam, hijo de Safán."
+    },
+    {
+      "id": 155,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Jeremías - Exilio",
+      "pregunta": "¿Qué carta envió Jeremías a los exiliados en Babilonia?",
+      "opciones": {
+        "A": "Que se rebelaran",
+        "B": "Que edifiquen casas, planten jardines, busquen la paz de la ciudad",
+        "C": "Que ayunen constantemente",
+        "D": "Que no trabajen"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Jeremías 29:4-7 dice que debían edificar casas y habitarlas, plantar huertos y comer su fruto, y buscar la paz de la ciudad."
+    },
+    {
+      "id": 156,
+      "nivel": 26,
+      "dificultad": 5,
+      "tema": "Ezequiel - Exilio",
+      "pregunta": "¿Qué profeta fue llevado cautivo a Babilonia antes de la caída de Jerusalén?",
+      "opciones": {
+        "A": "Isaías",
+        "B": "Jeremías",
+        "C": "Ezequiel",
+        "D": "Daniel"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Ezequiel 1:1-3 y 33:21 indica que Ezequiel estaba en Babilonia cuando recibió noticias de la caída de Jerusalén."
+    },
+    {
+      "id": 157,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Regreso",
+      "pregunta": "¿En qué año comenzó el regreso de los judíos a Jerusalén?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "607 a.E.C.",
+        "C": "455 a.E.C.",
+        "D": "444 a.E.C."
+      },
+      "respuesta_correcta": "A",
+      "explicacion": "Esdras 1:1 dice que en el primer año de Ciro rey de Persia, para que se cumpliera la palabra de Jehová, Jehová despertó el espíritu de Ciro."
+    },
+    {
+      "id": 158,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Regreso",
+      "pregunta": "¿Quién lideró el primer grupo de regreso a Jerusalén?",
+      "opciones": {
+        "A": "Nehemías",
+        "B": "Esdras",
+        "C": "Zorobabel y Josué",
+        "D": "Jeremías"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Esdras 2:2 dice que vinieron con Zorobabel, Jesúa (Josué), Nehemías, Seraías, Reelaías, Mardoqueo..."
+    },
+    {
+      "id": 159,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reconstrucción",
+      "pregunta": "¿Qué edificio comenzaron a reconstruir primero los judíos al regresar?",
+      "opciones": {
+        "A": "La muralla de la ciudad",
+        "B": "El altar y el templo",
+        "C": "El palacio del rey",
+        "D": "Sus propias casas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 3:2-6 describe cómo Josué y Zorobabel edificaron el altar del Dios de Israel para ofrecer holocaustos, y luego comenzaron la reconstrucción del templo."
+    },
+    {
+      "id": 160,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Opposición",
+      "pregunta": "¿Quiénes se opusieron a la reconstrucción del templo?",
+      "opciones": {
+        "A": "Los persas",
+        "B": "Los enemigos de Judá y Benjamín (samariatanos y otros)",
+        "C": "Los egipcios",
+        "D": "Los babilonios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 4:1-5 dice que cuando los enemigos de Judá y Benjamín oyeron que los repatriados edificaban un templo a Jehová, se acercaron a Zorobabel y se opusieron."
+    },
+    {
+      "id": 161,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Reinicio",
+      "pregunta": "¿Qué profetas animaron a reanudar la obra del templo después de detenerse?",
+      "opciones": {
+        "A": "Isaías y Jeremías",
+        "B": "Hageo y Zacarías",
+        "C": "Ezequiel y Daniel",
+        "D": "Malaquías y Joel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 5:1 y 6:14 mencionan a Hageo y Zacarías los profetas que profetizaban a los judíos en Judá y Jerusalén."
+    },
+    {
+      "id": 162,
+      "nivel": 27,
+      "dificultad": 5,
+      "tema": "Esdras - Finalización",
+      "pregunta": "¿En qué año fue terminado el segundo templo?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "515 a.E.C.",
+        "C": "455 a.E.C.",
+        "D": "444 a.E.C."
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Esdras 6:15 dice que este templo fue terminado el día tercero del mes de Adar, en el sexto año del reinado de Darío (515 a.E.C.)."
+    },
+    {
+      "id": 163,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Llegada",
+      "pregunta": "¿Qué cargo tenía Nehemías en la corte persa antes de ir a Jerusalén?",
+      "opciones": {
+        "A": "General del ejército",
+        "B": "Copero del rey",
+        "C": "Sumo sacerdote",
+        "D": "Escriba"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 1:11 dice que Nehemías era copero del rey."
+    },
+    {
+      "id": 164,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Llegada",
+      "pregunta": "¿En qué año llegó Nehemías a Jerusalén?",
+      "opciones": {
+        "A": "537 a.E.C.",
+        "B": "455 a.E.C.",
+        "C": "444 a.E.C.",
+        "D": "515 a.E.C."
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Nehemías 2:1 dice que en el mes de Nisán, en el año vigésimo del rey Artajerjes (444 a.E.C.), cuando vino el vino ante él..."
+    },
+    {
+      "id": 165,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Misión",
+      "pregunta": "¿Qué misión principal tenía Nehemías en Jerusalén?",
+      "opciones": {
+        "A": "Construir el templo",
+        "B": "Reconstruir las murallas de Jerusalén",
+        "C": "Escribir la ley",
+        "D": "Hacer la guerra"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 2:5 dice que Nehemías pidió permiso al rey para ir a reconstruir la ciudad donde estaban enterrados sus padres."
+    },
+    {
+      "id": 166,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Reconstrucción",
+      "pregunta": "¿Cuánto tiempo tardó Nehemías en reconstruir las murallas?",
+      "opciones": {
+        "A": "40 días",
+        "B": "52 días",
+        "C": "3 meses",
+        "D": "1 año"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 6:15 dice que el muro fue terminado el día veinticinco del mes de Elul, en cincuenta y dos días."
+    },
+    {
+      "id": 167,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Oposición",
+      "pregunta": "¿Quiénes se burlaron de los judíos mientras reconstruían la muralla?",
+      "opciones": {
+        "A": "Los persas",
+        "B": "Sambalat el horonita, Tobías el amonita y Gesem el árabe",
+        "C": "Los babilonios",
+        "D": "Los egipcios"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 2:19 y 4:1-3 describen la oposición de Sambalat, Tobías y Gesem que se burlaban y conspiraban contra la obra."
+    },
+    {
+      "id": 168,
+      "nivel": 28,
+      "dificultad": 5,
+      "tema": "Nehemías - Trabajo",
+      "pregunta": "¿Cómo trabajaron los judíos durante la reconstrucción de la muralla?",
+      "opciones": {
+        "A": "Con herramientas solamente",
+        "B": "Con una mano en la obra y otra en el arma",
+        "C": "Descansando mucho",
+        "D": "Contratando extranjeros"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Nehemías 4:17 dice que los que edificaban la muralla y los que llevaban cargas trabajaban con una mano en la obra y otra sosteniendo el arma."
+    },
+    {
+      "id": 169,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Historia",
+      "pregunta": "¿Quién era Ester antes de convertirse en reina de Persia?",
+      "opciones": {
+        "A": "Princesa de Judá",
+        "B": "Huérfana judía criada por su primo Mardoqueo",
+        "C": "Sacerdotisa",
+        "D": "Guerrera"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 2:5-7 dice que Mardoqueo crió a Hadasa (que es Ester), hija de su tío, porque no tenía padre ni madre."
+    },
+    {
+      "id": 170,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Historia",
+      "pregunta": "¿Quién era el rey de Persia cuando Ester se convirtió en reina?",
+      "opciones": {
+        "A": "Darío",
+        "B": "Asuero (Jerjes)",
+        "C": "Ciro",
+        "D": "Artajerjes"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 1:1 dice que sucedió en los días de Asuero (también llamado Jerjes), el Asuero que reinó desde la India hasta Etiopía."
+    },
+    {
+      "id": 171,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Conflicto",
+      "pregunta": "¿Quién planeó exterminar a todos los judíos del imperio persa?",
+      "opciones": {
+        "A": "El rey Asuero",
+        "B": "Amán el agagueo",
+        "C": "Mardoqueo",
+        "D": "Zorobabel"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 3:6 describe cómo Amán buscó destruir a todos los judíos que estaban en todo el reino de Asuero."
+    },
+    {
+      "id": 172,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Conflicto",
+      "pregunta": "¿Por qué Mardoqueo no se inclinaba ni se postraba ante Amán?",
+      "opciones": {
+        "A": "Porque era orgulloso",
+        "B": "Porque era judío y solo adoraba a Dios",
+        "C": "Porque era más alto",
+        "D": "Porque no lo conocía"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 3:4 dice que Mardoqueo les había declarado que era judío, por lo que no podía postrarse ante Amán."
+    },
+    {
+      "id": 173,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Valor",
+      "pregunta": "¿Qué dijo Ester cuando Mardoqueo le pidió interceder?",
+      "opciones": {
+        "A": "'No puedo hacer nada'",
+        "B": "'Vayan y reúnan a todos los judíos... ayunen por mí; yo también ayunaré... y si perezco, que perezca'",
+        "C": "'Huiré'",
+        "D": "'Pelearé'"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 4:16 dice la famosa frase de Ester: 'Vayan y reúnan a todos los judíos... ayunen por mí... y si perezco, que perezca.'"
+    },
+    {
+      "id": 174,
+      "nivel": 29,
+      "dificultad": 5,
+      "tema": "Ester - Salvación",
+      "pregunta": "¿Qué hizo el rey cuando Ester se presentó sin ser llamada?",
+      "opciones": {
+        "A": "La ejecutó",
+        "B": "Extendió el cetro de oro hacia ella",
+        "C": "La ignoró",
+        "D": "La encarceló"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Ester 4:11 y 5:2 dice que el rey extendió a Ester el cetro de oro, mostrando que le concedía su favor y su vida."
+    },
+    {
+      "id": 175,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Cronología - 70 semanas",
+      "pregunta": "¿Desde qué evento Daniel profetizó las 'setenta semanas'?",
+      "opciones": {
+        "A": "La destrucción del templo",
+        "B": "La palabra para restaurar y edificar Jerusalén",
+        "C": "El nacimiento de Cristo",
+        "D": "La crucifixión"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 9:25 dice: 'Desde la salida de la palabra para restaurar y edificar a Jerusalén hasta el Mesías Príncipe, habrá siete semanas y sesenta y dos semanas.'"
+    },
+    {
+      "id": 176,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Cronología - 70 semanas",
+      "pregunta": "¿Qué sucedería después de las 69 semanas según Daniel 9:26?",
+      "opciones": {
+        "A": "Se destruiría el templo",
+        "B": "Se quitará la vida al Mesías",
+        "C": "Vendría un profeta",
+        "D": "Se acabaría el mundo"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Daniel 9:26 dice: 'Y después de las sesenta y dos semanas se quitará la vida al Mesías.'"
+    },
+    {
+      "id": 177,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Malaquías - Final del AT",
+      "pregunta": "¿Cuál es el último libro del canon hebreo (Antiguo Testamento)?",
+      "opciones": {
+        "A": "Zacarías",
+        "B": "Malaquías",
+        "C": "Daniel",
+        "D": "2 Crónicas"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías es el último libro del canon hebreo, que concluye con la profecía de Elías y la promesa de restauración."
+    },
+    {
+      "id": 178,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Malaquías - Profecía",
+      "pregunta": "¿Qué promesa de bendición termina el libro de Malaquías?",
+      "opciones": {
+        "A": "Riquezas",
+        "B": "No dejará de haber un varón de tu familia ante mi rostro",
+        "C": "Victoria militar",
+        "D": "Larga vida"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Malaquías 4:5-6 termina con la promesa de enviar a Elías y restaurar el corazón de los padres a los hijos, y de los hijos a los padres."
+    },
+    {
+      "id": 179,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Historia intertestamentaria",
+      "pregunta": "¿Cuánto tiempo aproximadamente pasó entre Malaquías y Juan el Bautista?",
+      "opciones": {
+        "A": "100 años",
+        "B": "200 años",
+        "C": "400 años (el periodo de silencio)",
+        "D": "50 años"
+      },
+      "respuesta_correcta": "C",
+      "explicacion": "Tradicionalmente se considera que hubo aproximadamente 400 años de silencio profético entre el Antiguo Testamento y el Nuevo Testamento, hasta la llegada de Juan el Bautista."
+    },
+    {
+      "id": 180,
+      "nivel": 30,
+      "dificultad": 5,
+      "tema": "Intertestamentaria",
+      "pregunta": "¿Qué imperio conquistó a Persia antes de la llegada de Jesús?",
+      "opciones": {
+        "A": "Roma",
+        "B": "Grecia (Alejandro Magno)",
+        "C": "Asiria",
+        "D": "Egipto"
+      },
+      "respuesta_correcta": "B",
+      "explicacion": "Alejandro Magno conquistó el imperio persa en el siglo IV a.E.C., y luego el imperio seléucida gobernó Palestina hasta los macabeos."
+    }
+  ]
+}

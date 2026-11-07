@@ -4301,7 +4301,7 @@
       position: relative;
       width: 100%;
       min-height: 100%;
-      height: 10000px; /* Suficiente para 100 niveles */
+      height: 3000px;
     }
 
     /* Custom scrollbar for map */
@@ -4897,7 +4897,7 @@
       box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
     }
 
-    /* Estilos para mapa extendido con 100 niveles */
+    /* Estilos para mapa extendido con 30 niveles */
     .map-container {
       position: relative;
       width: 100%;
@@ -5548,8 +5548,8 @@
 
 /* Botones de nivel con medallón y base de piedra */
 #map .map-path-content {
-  height: 10000px;
-  min-height: 10000px;
+  height: 3000px;
+  min-height: 3000px;
 }
 
 #map .level-pin {
@@ -5600,6 +5600,21 @@
   z-index: 102;
 }
 
+#map .level-pin .level:not(.locked) {
+  background:
+    radial-gradient(
+      ellipse at 35% 20%,
+      hsl(var(--level-hue) 95% 82%) 0%,
+      hsl(var(--level-hue) 85% 55%) 42%,
+      hsl(var(--level-hue) 80% 36%) 100%
+    );
+  border-color: hsl(var(--level-hue) 90% 78%);
+  box-shadow:
+    0 4px 0 hsl(var(--level-hue) 80% 28%),
+    0 8px 12px rgba(24, 40, 20, 0.35),
+    inset 0 3px 5px rgba(255, 255, 255, 0.65);
+}
+
 #map .level-pin .level::before {
   display: none;
 }
@@ -5616,8 +5631,6 @@
 }
 
 #map .level-pin:hover .level:not(.locked) {
-  background:
-    radial-gradient(ellipse at 35% 20%, #fff 0%, #d7d2e3 35%, #9993a8 73%, #706a7d 100%);
   filter: brightness(1.06);
   transform: translateY(-2px) scale(1.04);
 }
